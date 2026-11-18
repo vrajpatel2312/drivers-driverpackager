@@ -96,6 +96,24 @@
       "evidence": "entrypoint.sh:5",
       "rel": "runs",
       "src": "script:entrypoint.sh"
+    },
+    {
+      "dst": "script:generator/diagnostics.py",
+      "evidence": "generator/project_graph.py:35",
+      "rel": "requires",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "script:generator/extractors.py",
+      "evidence": "generator/project_graph.py:15",
+      "rel": "requires",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "script:generator/manifest.py",
+      "evidence": "generator/project_graph.py:32",
+      "rel": "requires",
+      "src": "script:generator/project_graph.py"
     }
   ],
   "gaps": [
@@ -120,12 +138,87 @@
       "item": "identical copy of dp/squish; ingested once"
     },
     {
+      "evidence": "Documentation/architecture/codebase-graph.json:124",
+      "id": "secret-name:Documentation/architecture/codebase-graph.json:secret",
+      "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'secret' (value not recorded)"
+    },
+    {
       "evidence": "createc4z/README.md:41",
       "id": "secret-name:createc4z/README.md:secret",
       "item": "createc4z/README.md mentions secret-shaped name 'secret' (value not recorded)"
+    },
+    {
+      "evidence": "generator/diagnostics.py:4",
+      "id": "secret-name:generator/diagnostics.py:secret",
+      "item": "generator/diagnostics.py mentions secret-shaped name 'secret' (value not recorded)"
+    },
+    {
+      "evidence": "generator/extractors.py:36",
+      "id": "secret-name:generator/extractors.py:sh_token_re",
+      "item": "generator/extractors.py mentions secret-shaped name 'SH_TOKEN_RE' (value not recorded)"
+    },
+    {
+      "evidence": "generator/extractors.py:67",
+      "id": "secret-name:generator/extractors.py:token",
+      "item": "generator/extractors.py mentions secret-shaped name 'token' (value not recorded)"
+    },
+    {
+      "evidence": "generator/manifest.py:11",
+      "id": "secret-name:generator/manifest.py:secret",
+      "item": "generator/manifest.py mentions secret-shaped name 'secret' (value not recorded)"
+    },
+    {
+      "evidence": "generator/project_graph.py:489",
+      "id": "secret-name:generator/project_graph.py:api_key",
+      "item": "generator/project_graph.py mentions secret-shaped name 'API_KEY' (value not recorded)"
+    },
+    {
+      "evidence": "generator/project_graph.py:487",
+      "id": "secret-name:generator/project_graph.py:license_salt",
+      "item": "generator/project_graph.py mentions secret-shaped name 'LICENSE_SALT' (value not recorded)"
+    },
+    {
+      "evidence": "generator/project_graph.py:85",
+      "id": "secret-name:generator/project_graph.py:salt",
+      "item": "generator/project_graph.py mentions secret-shaped name 'SALT' (value not recorded)"
+    },
+    {
+      "evidence": "generator/project_graph.py:75",
+      "id": "secret-name:generator/project_graph.py:secret_basenames",
+      "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_BASENAMES' (value not recorded)"
+    },
+    {
+      "evidence": "generator/project_graph.py:77",
+      "id": "secret-name:generator/project_graph.py:secret_globs",
+      "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_GLOBS' (value not recorded)"
+    },
+    {
+      "evidence": "generator/project_graph.py:91",
+      "id": "secret-name:generator/project_graph.py:secret_single",
+      "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_SINGLE' (value not recorded)"
+    },
+    {
+      "evidence": "generator/project_graph.py:88",
+      "id": "secret-name:generator/project_graph.py:secret_substrs",
+      "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_SUBSTRS' (value not recorded)"
+    },
+    {
+      "evidence": "generator/project_graph.py:87",
+      "id": "secret-name:generator/project_graph.py:secret_token_re",
+      "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_TOKEN_RE' (value not recorded)"
+    },
+    {
+      "evidence": "graph.config.json:6",
+      "id": "secret-name:graph.config.json:secret",
+      "item": "graph.config.json mentions secret-shaped name 'secret' (value not recorded)"
+    },
+    {
+      "evidence": "graph.config.json:12",
+      "id": "secret-name:graph.config.json:secrets_policy",
+      "item": "graph.config.json mentions secret-shaped name 'secrets_policy' (value not recorded)"
     }
   ],
-  "generated_at": "2026-11-18T22:00:10Z",
+  "generated_at": "2026-11-18T22:28:58Z",
   "nodes": [
     {
       "attrs": {
@@ -143,6 +236,42 @@
       },
       "id": "config:.gitignore",
       "source": ".gitignore",
+      "type": "config"
+    },
+    {
+      "attrs": {
+        "lines": 450,
+        "path": "Documentation/architecture/codebase-graph.json"
+      },
+      "id": "config:Documentation/architecture/codebase-graph.json",
+      "source": "Documentation/architecture/codebase-graph.json",
+      "type": "config"
+    },
+    {
+      "attrs": {
+        "lines": 2,
+        "path": "graph-template-VERSION"
+      },
+      "id": "config:graph-template-VERSION",
+      "source": "graph-template-VERSION",
+      "type": "config"
+    },
+    {
+      "attrs": {
+        "lines": 20,
+        "path": "graph.config.json"
+      },
+      "id": "config:graph.config.json",
+      "source": "graph.config.json",
+      "type": "config"
+    },
+    {
+      "attrs": {
+        "lines": 41,
+        "path": "manifest.schema.json"
+      },
+      "id": "config:manifest.schema.json",
+      "source": "manifest.schema.json",
       "type": "config"
     },
     {
@@ -318,6 +447,42 @@
     },
     {
       "attrs": {
+        "lines": 74,
+        "path": "generator/diagnostics.py"
+      },
+      "id": "script:generator/diagnostics.py",
+      "source": "generator/diagnostics.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 426,
+        "path": "generator/extractors.py"
+      },
+      "id": "script:generator/extractors.py",
+      "source": "generator/extractors.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 193,
+        "path": "generator/manifest.py"
+      },
+      "id": "script:generator/manifest.py",
+      "source": "generator/manifest.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 724,
+        "path": "generator/project_graph.py"
+      },
+      "id": "script:generator/project_graph.py",
+      "source": "generator/project_graph.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
         "lines": 63,
         "path": "gosquish/squishLua.go"
       },
@@ -335,7 +500,7 @@
       "type": "vendor"
     }
   ],
-  "source_commit": "16eef8beb70303606f066524cda516b2aa7ce38d",
+  "source_commit": "6ae508a473d89c7497890cbd1417fe3e4aaefd72",
   "sources": [
     {
       "path": ".dockerignore",
@@ -348,6 +513,10 @@
     {
       "path": "Dockerfile",
       "sha256": "178ab0bb25069164d8f2d4a73adf53bb980e1ca2c691b0d80de5f5f934c0a4f6"
+    },
+    {
+      "path": "Documentation/architecture/codebase-graph.json",
+      "sha256": "97dbab25b4516c91573ed3d8bea2d8f67901151d6433591fbafd90dc828c5aed"
     },
     {
       "path": "LICENSE.md",
@@ -438,8 +607,36 @@
       "sha256": "17d42a4920864567e782c9f3d445fc7551223ae2e79151009d2781aed7264f30"
     },
     {
+      "path": "generator/diagnostics.py",
+      "sha256": "b9cbc975c913af98de2f03839e47589d4bbcbde310beddc600f5bbf4b3578665"
+    },
+    {
+      "path": "generator/extractors.py",
+      "sha256": "8e214e66aa23c043994b394f700d138502d6038bd2d6ff9a2e79b446e118b3fa"
+    },
+    {
+      "path": "generator/manifest.py",
+      "sha256": "a88088bd2d52a21b4ce484e6816778ce8238a5d4cd31350903f84a274ff1d772"
+    },
+    {
+      "path": "generator/project_graph.py",
+      "sha256": "9ed2745480bf96220bddbe4fe96e31897bf15d8aef6d25ef663202ab990eeac4"
+    },
+    {
       "path": "gosquish/squishLua.go",
       "sha256": "cb3640d657dcaf1e6b1b24d51a59aa3ec0caeba682bcbb10bef63586255b90ba"
+    },
+    {
+      "path": "graph-template-VERSION",
+      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+    },
+    {
+      "path": "graph.config.json",
+      "sha256": "d0e655eb3932e12f674d6ee92d0e4d6f00c6c208883aca5486cfd957a646791c"
+    },
+    {
+      "path": "manifest.schema.json",
+      "sha256": "903287c40311bb6c5060f258eb71a6c7981b1e484614611f1177690e847b3c98"
     },
     {
       "path": "nextGen.md",
