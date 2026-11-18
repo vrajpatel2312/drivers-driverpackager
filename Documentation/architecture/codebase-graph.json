@@ -1,0 +1,449 @@
+{
+  "drift": [],
+  "edges": [
+    {
+      "dst": "script:dp3/build_c4z.py",
+      "evidence": "Dockerfile:4",
+      "rel": "bundles",
+      "src": "manifest:Dockerfile"
+    },
+    {
+      "dst": "script:dp3/driverpackager.py",
+      "evidence": "Dockerfile:4",
+      "rel": "bundles",
+      "src": "manifest:Dockerfile"
+    },
+    {
+      "dst": "script:dp3/encrypt_c4z.py",
+      "evidence": "Dockerfile:4",
+      "rel": "bundles",
+      "src": "manifest:Dockerfile"
+    },
+    {
+      "dst": "script:entrypoint.sh",
+      "evidence": "Dockerfile:3",
+      "rel": "bundles",
+      "src": "manifest:Dockerfile"
+    },
+    {
+      "dst": "script:entrypoint.sh",
+      "evidence": "Dockerfile:3",
+      "rel": "runs",
+      "src": "manifest:Dockerfile"
+    },
+    {
+      "dst": "vendor:dp/squish",
+      "evidence": "Dockerfile:4",
+      "rel": "bundles",
+      "src": "manifest:Dockerfile"
+    },
+    {
+      "dst": "manifest:Dockerfile",
+      "evidence": "action.yml:25",
+      "rel": "uses",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "script:dp/encrypt_c4z.py",
+      "evidence": "dp/build_c4z.py:16",
+      "rel": "requires",
+      "src": "script:dp/build_c4z.py"
+    },
+    {
+      "dst": "script:dp/build_c4z.py",
+      "evidence": "dp/driverpackager.py:26",
+      "rel": "requires",
+      "src": "script:dp/driverpackager.py"
+    },
+    {
+      "dst": "script:dp3/encrypt_c4z.py",
+      "evidence": "dp3/build_c4z.py:18",
+      "rel": "requires",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "script:dp3/build_c4z.py",
+      "evidence": "dp3/driverpackager.py:22",
+      "rel": "requires",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "script:dp/encrypt_c4z.py",
+      "evidence": "dplite/driverpackagerlite.py:47",
+      "rel": "requires",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "script:dplite/createsquishy.py",
+      "evidence": "dplite/driverpackagerlite.py:23",
+      "rel": "requires",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "script:dplite3/createsquishy.py",
+      "evidence": "dplite3/driverpackagerlite3.py:23",
+      "rel": "requires",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "script:dplite3/encrypt_c4z.py",
+      "evidence": "dplite3/driverpackagerlite3.py:47",
+      "rel": "requires",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "script:dp/driverpackager.py",
+      "evidence": "entrypoint.sh:5",
+      "rel": "runs",
+      "src": "script:entrypoint.sh"
+    }
+  ],
+  "gaps": [
+    {
+      "evidence": "dp3/squish:1",
+      "id": "dedup:dp3/squish",
+      "item": "identical copy of dp/squish; ingested once"
+    },
+    {
+      "evidence": "dplite/encrypt_c4z.py:1",
+      "id": "dedup:dplite/encrypt_c4z.py",
+      "item": "identical copy of dp/encrypt_c4z.py; ingested once"
+    },
+    {
+      "evidence": "dplite/squish:1",
+      "id": "dedup:dplite/squish",
+      "item": "identical copy of dp/squish; ingested once"
+    },
+    {
+      "evidence": "dplite3/squish:1",
+      "id": "dedup:dplite3/squish",
+      "item": "identical copy of dp/squish; ingested once"
+    },
+    {
+      "evidence": "createc4z/README.md:41",
+      "id": "secret-name:createc4z/README.md:secret",
+      "item": "createc4z/README.md mentions secret-shaped name 'secret' (value not recorded)"
+    }
+  ],
+  "generated_at": "2026-11-18T22:00:10Z",
+  "nodes": [
+    {
+      "attrs": {
+        "lines": 6,
+        "path": ".dockerignore"
+      },
+      "id": "config:.dockerignore",
+      "source": ".dockerignore",
+      "type": "config"
+    },
+    {
+      "attrs": {
+        "lines": 2,
+        "path": ".gitignore"
+      },
+      "id": "config:.gitignore",
+      "source": ".gitignore",
+      "type": "config"
+    },
+    {
+      "attrs": {
+        "lines": 112,
+        "path": "LICENSE.md"
+      },
+      "id": "doc:LICENSE.md",
+      "source": "LICENSE.md",
+      "type": "doc"
+    },
+    {
+      "attrs": {
+        "lines": 124,
+        "path": "README.md"
+      },
+      "id": "doc:README.md",
+      "source": "README.md",
+      "type": "doc"
+    },
+    {
+      "attrs": {
+        "lines": 57,
+        "path": "createc4z/README.md"
+      },
+      "id": "doc:createc4z/README.md",
+      "source": "createc4z/README.md",
+      "type": "doc"
+    },
+    {
+      "attrs": {
+        "lines": 229,
+        "path": "nextGen.md"
+      },
+      "id": "doc:nextGen.md",
+      "source": "nextGen.md",
+      "type": "doc"
+    },
+    {
+      "attrs": {
+        "lines": 14,
+        "path": "Dockerfile"
+      },
+      "id": "manifest:Dockerfile",
+      "source": "Dockerfile",
+      "type": "manifest"
+    },
+    {
+      "attrs": {
+        "lines": 33,
+        "path": "action.yml"
+      },
+      "id": "manifest:action.yml",
+      "source": "action.yml",
+      "type": "manifest"
+    },
+    {
+      "attrs": {
+        "lines": 298,
+        "path": "createc4z/CreateC4Z.py"
+      },
+      "id": "script:createc4z/CreateC4Z.py",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 339,
+        "path": "dp/build_c4z.py"
+      },
+      "id": "script:dp/build_c4z.py",
+      "source": "dp/build_c4z.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 520,
+        "path": "dp/driverpackager.py"
+      },
+      "id": "script:dp/driverpackager.py",
+      "source": "dp/driverpackager.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 90,
+        "path": "dp/encrypt_c4z.py"
+      },
+      "id": "script:dp/encrypt_c4z.py",
+      "source": "dp/encrypt_c4z.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 371,
+        "path": "dp3/build_c4z.py"
+      },
+      "id": "script:dp3/build_c4z.py",
+      "source": "dp3/build_c4z.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 568,
+        "path": "dp3/driverpackager.py"
+      },
+      "id": "script:dp3/driverpackager.py",
+      "source": "dp3/driverpackager.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 91,
+        "path": "dp3/encrypt_c4z.py"
+      },
+      "id": "script:dp3/encrypt_c4z.py",
+      "source": "dp3/encrypt_c4z.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 197,
+        "path": "dplite/createsquishy.py"
+      },
+      "id": "script:dplite/createsquishy.py",
+      "source": "dplite/createsquishy.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 514,
+        "path": "dplite/driverpackagerlite.py"
+      },
+      "id": "script:dplite/driverpackagerlite.py",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 197,
+        "path": "dplite3/createsquishy.py"
+      },
+      "id": "script:dplite3/createsquishy.py",
+      "source": "dplite3/createsquishy.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 507,
+        "path": "dplite3/driverpackagerlite3.py"
+      },
+      "id": "script:dplite3/driverpackagerlite3.py",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 90,
+        "path": "dplite3/encrypt_c4z.py"
+      },
+      "id": "script:dplite3/encrypt_c4z.py",
+      "source": "dplite3/encrypt_c4z.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 20,
+        "path": "entrypoint.sh"
+      },
+      "id": "script:entrypoint.sh",
+      "source": "entrypoint.sh",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lines": 63,
+        "path": "gosquish/squishLua.go"
+      },
+      "id": "script:gosquish/squishLua.go",
+      "source": "gosquish/squishLua.go",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "bytes": 121342,
+        "path": "dp/squish"
+      },
+      "id": "vendor:dp/squish",
+      "source": "dp/squish",
+      "type": "vendor"
+    }
+  ],
+  "source_commit": "16eef8beb70303606f066524cda516b2aa7ce38d",
+  "sources": [
+    {
+      "path": ".dockerignore",
+      "sha256": "8763a5b34f74da86755d4f066efcac0bca65e5895114b4134535bcd219da4948"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "094c25031dcfe5c288666671bc2012866293b3797ea53c796af798bda4c32f01"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "178ab0bb25069164d8f2d4a73adf53bb980e1ca2c691b0d80de5f5f934c0a4f6"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "09e8f9653d1112bfbac79e0c2d632c6cb03f3a66a4cca7f813d72630954cdcba"
+    },
+    {
+      "path": "README.md",
+      "sha256": "db523e6aee4799f107c1bce1a9bede9c11125d400bde9c4668a53db4db7ff024"
+    },
+    {
+      "path": "action.yml",
+      "sha256": "b15ea5506d22021439f69abe74f7bbe1968fef4db007b6759a4df3ec160bb705"
+    },
+    {
+      "path": "createc4z/CreateC4Z.py",
+      "sha256": "d21989981fe4ef3a5db09c6f0d6df5603e6aed6aa0bf89dae34089779208ae32"
+    },
+    {
+      "path": "createc4z/README.md",
+      "sha256": "a8987d063fd0d14d16962909b1d834b107f75f78dca50e064626f822071f20c5"
+    },
+    {
+      "path": "dp/build_c4z.py",
+      "sha256": "eb78487c6adb646ddab1ed0a73321c8e6e87597833e052073564083bbf76835d"
+    },
+    {
+      "path": "dp/driverpackager.py",
+      "sha256": "27c65116a1b2e0e215694b8b18a1999144a5ef26899cf497b580133c5d7f62a0"
+    },
+    {
+      "path": "dp/encrypt_c4z.py",
+      "sha256": "40e70ccb53a6a27bdbfce51c210030f78e97f02b948ac64f554458347e24f442"
+    },
+    {
+      "path": "dp/squish",
+      "sha256": "4e123e65b775782b0dc28bfd1451c3154301c5778c1dd492939cdb2671b7efb7"
+    },
+    {
+      "path": "dp3/build_c4z.py",
+      "sha256": "004b4700a880568686301c7edf67867593acfdb4d1703713eaed610a7962f2d2"
+    },
+    {
+      "path": "dp3/driverpackager.py",
+      "sha256": "b66c02e6f656f99fd851a929dcb0d64f6eb35048c26d10dfc65967add8580065"
+    },
+    {
+      "path": "dp3/encrypt_c4z.py",
+      "sha256": "7c7578b7592a3b6f603feb6e2f07f3a016c742e38ed82f44f82491bbeb0479f5"
+    },
+    {
+      "path": "dp3/squish",
+      "sha256": "4e123e65b775782b0dc28bfd1451c3154301c5778c1dd492939cdb2671b7efb7"
+    },
+    {
+      "path": "dplite/createsquishy.py",
+      "sha256": "52d2c830ddeab7e3e84c5957615043f43f45c50ec005f64b596866d7b28ae337"
+    },
+    {
+      "path": "dplite/driverpackagerlite.py",
+      "sha256": "ae5862cc3e80abf18f779fd3889c1caeafb459583f1d34daa635e8431af4493d"
+    },
+    {
+      "path": "dplite/encrypt_c4z.py",
+      "sha256": "40e70ccb53a6a27bdbfce51c210030f78e97f02b948ac64f554458347e24f442"
+    },
+    {
+      "path": "dplite/squish",
+      "sha256": "4e123e65b775782b0dc28bfd1451c3154301c5778c1dd492939cdb2671b7efb7"
+    },
+    {
+      "path": "dplite3/createsquishy.py",
+      "sha256": "bc24971c47add9d61b8872b3b02e5a98ab725ba3d3b61409d3c9dac0ac25950a"
+    },
+    {
+      "path": "dplite3/driverpackagerlite3.py",
+      "sha256": "5a07ffcd369d307295c215287f3a3f42168593855fdd15d7b446ffb1a4a18b9e"
+    },
+    {
+      "path": "dplite3/encrypt_c4z.py",
+      "sha256": "e2a060f159d373a3808d29632fb57570578d58436f9d2c7f68402f2bec175451"
+    },
+    {
+      "path": "dplite3/squish",
+      "sha256": "4e123e65b775782b0dc28bfd1451c3154301c5778c1dd492939cdb2671b7efb7"
+    },
+    {
+      "path": "entrypoint.sh",
+      "sha256": "17d42a4920864567e782c9f3d445fc7551223ae2e79151009d2781aed7264f30"
+    },
+    {
+      "path": "gosquish/squishLua.go",
+      "sha256": "cb3640d657dcaf1e6b1b24d51a59aa3ec0caeba682bcbb10bef63586255b90ba"
+    },
+    {
+      "path": "nextGen.md",
+      "sha256": "68232e283c57a57044e27968a255b493c95a5f49cf62abcd6f3c535f0ef250fa"
+    }
+  ]
+}
