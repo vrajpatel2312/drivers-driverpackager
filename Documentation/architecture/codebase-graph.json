@@ -196,42 +196,42 @@
       "item": ".github/workflows/graph-freshness.yml mentions secret-shaped name 'secret' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:173",
+      "evidence": "Documentation/architecture/codebase-graph.json:201",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:api_key",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'API_KEY' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:178",
+      "evidence": "Documentation/architecture/codebase-graph.json:206",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:license_salt",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'LICENSE_SALT' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:178",
+      "evidence": "Documentation/architecture/codebase-graph.json:206",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:salt",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SALT' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:188",
+      "evidence": "Documentation/architecture/codebase-graph.json:216",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_basenames",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_BASENAMES' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:193",
+      "evidence": "Documentation/architecture/codebase-graph.json:221",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_globs",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_GLOBS' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:198",
+      "evidence": "Documentation/architecture/codebase-graph.json:226",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_single",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_SINGLE' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:203",
+      "evidence": "Documentation/architecture/codebase-graph.json:231",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_substrs",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_SUBSTRS' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:208",
+      "evidence": "Documentation/architecture/codebase-graph.json:236",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_token_re",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_TOKEN_RE' (value not recorded)"
     },
@@ -311,7 +311,7 @@
       "item": "graph.config.json mentions secret-shaped name 'secrets_policy' (value not recorded)"
     }
   ],
-  "generated_at": "2026-11-19T05:39:15Z",
+  "generated_at": "2026-11-21T10:47:34Z",
   "nodes": [
     {
       "attrs": {
@@ -333,7 +333,7 @@
     },
     {
       "attrs": {
-        "lines": 647,
+        "lines": 766,
         "path": "Documentation/architecture/codebase-graph.json"
       },
       "id": "config:Documentation/architecture/codebase-graph.json",
@@ -366,6 +366,15 @@
       "id": "config:manifest.schema.json",
       "source": "manifest.schema.json",
       "type": "config"
+    },
+    {
+      "attrs": {
+        "lines": 42,
+        "path": "AGENTS.md"
+      },
+      "id": "doc:AGENTS.md",
+      "source": "AGENTS.md",
+      "type": "doc"
     },
     {
       "attrs": {
@@ -611,7 +620,7 @@
       "type": "workflow"
     }
   ],
-  "source_commit": "0c21a30d06f74e6678f4488d9aff66695439e042",
+  "source_commit": "8071fb841c6c7904c6f9d6d4a4f5219ac5557d62",
   "sources": [
     {
       "path": ".dockerignore",
@@ -630,12 +639,16 @@
       "sha256": "094c25031dcfe5c288666671bc2012866293b3797ea53c796af798bda4c32f01"
     },
     {
+      "path": "AGENTS.md",
+      "sha256": "474f5b959ae34fea49d2345d58b5d3b78dd62931bb81662a07a2a26d2e4e5126"
+    },
+    {
       "path": "Dockerfile",
       "sha256": "178ab0bb25069164d8f2d4a73adf53bb980e1ca2c691b0d80de5f5f934c0a4f6"
     },
     {
       "path": "Documentation/architecture/codebase-graph.json",
-      "sha256": "fce958c84c6ba32406319a60ede49b0d7ac05c789070fefb45c1f3895a3790c8"
+      "sha256": "e272d1e4976a0dd56e9763401d2f03e2a61f4db4d574283aa586d1679475a866"
     },
     {
       "path": "LICENSE.md",
