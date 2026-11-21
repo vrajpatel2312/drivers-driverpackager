@@ -311,7 +311,7 @@
       "item": "graph.config.json mentions secret-shaped name 'secrets_policy' (value not recorded)"
     }
   ],
-  "generated_at": "2026-11-21T10:47:34Z",
+  "generated_at": "2026-11-21T17:46:08Z",
   "nodes": [
     {
       "attrs": {
@@ -320,6 +320,15 @@
       },
       "id": "config:.dockerignore",
       "source": ".dockerignore",
+      "type": "config"
+    },
+    {
+      "attrs": {
+        "lines": 189,
+        "path": ".githooks/pre-push"
+      },
+      "id": "config:.githooks/pre-push",
+      "source": ".githooks/pre-push",
       "type": "config"
     },
     {
@@ -333,7 +342,7 @@
     },
     {
       "attrs": {
-        "lines": 766,
+        "lines": 779,
         "path": "Documentation/architecture/codebase-graph.json"
       },
       "id": "config:Documentation/architecture/codebase-graph.json",
@@ -360,7 +369,7 @@
     },
     {
       "attrs": {
-        "lines": 41,
+        "lines": 52,
         "path": "manifest.schema.json"
       },
       "id": "config:manifest.schema.json",
@@ -620,11 +629,15 @@
       "type": "workflow"
     }
   ],
-  "source_commit": "8071fb841c6c7904c6f9d6d4a4f5219ac5557d62",
+  "source_commit": "df3b98ecbead86e5bea5199c23dc7eb252fa3407",
   "sources": [
     {
       "path": ".dockerignore",
       "sha256": "8763a5b34f74da86755d4f066efcac0bca65e5895114b4134535bcd219da4948"
+    },
+    {
+      "path": ".githooks/pre-push",
+      "sha256": "ed37d80a903d049b088b17b313753b34007721041601c87dc3880af1485dbfd9"
     },
     {
       "path": ".github/tests/test-graph-freshness.sh",
@@ -648,7 +661,7 @@
     },
     {
       "path": "Documentation/architecture/codebase-graph.json",
-      "sha256": "e272d1e4976a0dd56e9763401d2f03e2a61f4db4d574283aa586d1679475a866"
+      "sha256": "efe116d8c91aa5f3ab7d1eaa49310167fbe1e43472da7569e066c49300267396"
     },
     {
       "path": "LICENSE.md",
@@ -768,7 +781,7 @@
     },
     {
       "path": "manifest.schema.json",
-      "sha256": "903287c40311bb6c5060f258eb71a6c7981b1e484614611f1177690e847b3c98"
+      "sha256": "e69de2b51144793bfeb7a4a07db3a7609103b35ac22121f15767642bf2a70c5e"
     },
     {
       "path": "nextGen.md",
