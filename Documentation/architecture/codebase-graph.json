@@ -2,6 +2,348 @@
   "drift": [],
   "edges": [
     {
+      "dst": "symbol:graph.config.json#deterministic",
+      "evidence": "graph.config.json:1",
+      "rel": "defines",
+      "src": "config:graph.config.json"
+    },
+    {
+      "dst": "symbol:graph.config.json#excludes",
+      "evidence": "graph.config.json:1",
+      "rel": "defines",
+      "src": "config:graph.config.json"
+    },
+    {
+      "dst": "symbol:graph.config.json#output",
+      "evidence": "graph.config.json:1",
+      "rel": "defines",
+      "src": "config:graph.config.json"
+    },
+    {
+      "dst": "symbol:graph.config.json#project",
+      "evidence": "graph.config.json:1",
+      "rel": "defines",
+      "src": "config:graph.config.json"
+    },
+    {
+      "dst": "symbol:graph.config.json#secrets_policy",
+      "evidence": "graph.config.json:1",
+      "rel": "defines",
+      "src": "config:graph.config.json"
+    },
+    {
+      "dst": "symbol:graph.config.json#sources",
+      "evidence": "graph.config.json:1",
+      "rel": "defines",
+      "src": "config:graph.config.json"
+    },
+    {
+      "dst": "symbol:graph.config.json#version",
+      "evidence": "graph.config.json:1",
+      "rel": "defines",
+      "src": "config:graph.config.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#$schema",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#additionalProperties",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#description",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.drift",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.drift.type",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.edges",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.edges.items",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.edges.type",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.gaps",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.gaps.type",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.generated_at",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.generated_at.type",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.nodes",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.nodes.items",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.nodes.type",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.source_commit",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.source_commit.type",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.sources",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.sources.items",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#properties.sources.type",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#required",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#title",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:manifest.schema.json#type",
+      "evidence": "manifest.schema.json:1",
+      "rel": "defines",
+      "src": "config:manifest.schema.json"
+    },
+    {
+      "dst": "symbol:AGENTS.md#Commands (as documented)",
+      "evidence": "AGENTS.md:1",
+      "rel": "defines",
+      "src": "doc:AGENTS.md"
+    },
+    {
+      "dst": "symbol:AGENTS.md#Graph",
+      "evidence": "AGENTS.md:1",
+      "rel": "defines",
+      "src": "doc:AGENTS.md"
+    },
+    {
+      "dst": "symbol:AGENTS.md#Layout",
+      "evidence": "AGENTS.md:1",
+      "rel": "defines",
+      "src": "doc:AGENTS.md"
+    },
+    {
+      "dst": "symbol:AGENTS.md#Safety",
+      "evidence": "AGENTS.md:1",
+      "rel": "defines",
+      "src": "doc:AGENTS.md"
+    },
+    {
+      "dst": "symbol:AGENTS.md#What this is",
+      "evidence": "AGENTS.md:1",
+      "rel": "defines",
+      "src": "doc:AGENTS.md"
+    },
+    {
+      "dst": "symbol:AGENTS.md#driver-packager \u2014 Codex executors",
+      "evidence": "AGENTS.md:1",
+      "rel": "defines",
+      "src": "doc:AGENTS.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#Contact Us",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#Copyright",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#Derivative Works",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#License and Intellectual Property Disclaimer",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#License, Copyright, and Trademark",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#LuaSrcDiet",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#LuaSrcDiet License Statement",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#Squish",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#Squish License Statement",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#Third Party Copyright Included In This Repository",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:LICENSE.md#Trademarks",
+      "evidence": "LICENSE.md:1",
+      "rel": "defines",
+      "src": "doc:LICENSE.md"
+    },
+    {
+      "dst": "symbol:README.md#Driver Packager",
+      "evidence": "README.md:1",
+      "rel": "defines",
+      "src": "doc:README.md"
+    },
+    {
+      "dst": "symbol:README.md#Driver Packager source files:",
+      "evidence": "README.md:1",
+      "rel": "defines",
+      "src": "doc:README.md"
+    },
+    {
+      "dst": "symbol:README.md#Manifest File format",
+      "evidence": "README.md:1",
+      "rel": "defines",
+      "src": "doc:README.md"
+    },
+    {
+      "dst": "symbol:README.md#Requirements",
+      "evidence": "README.md:1",
+      "rel": "defines",
+      "src": "doc:README.md"
+    },
+    {
+      "dst": "symbol:README.md#Using Driver Packager in Github Actions",
+      "evidence": "README.md:1",
+      "rel": "defines",
+      "src": "doc:README.md"
+    },
+    {
+      "dst": "symbol:README.md#Using Driver Packager to build a .c4z",
+      "evidence": "README.md:1",
+      "rel": "defines",
+      "src": "doc:README.md"
+    },
+    {
+      "dst": "symbol:README.md#Versions",
+      "evidence": "README.md:1",
+      "rel": "defines",
+      "src": "doc:README.md"
+    },
+    {
+      "dst": "symbol:createc4z/README.md#CreateC4Z",
+      "evidence": "createc4z/README.md:1",
+      "rel": "defines",
+      "src": "doc:createc4z/README.md"
+    },
+    {
+      "dst": "symbol:nextGen.md#Next Generation of Driver Packager",
+      "evidence": "nextGen.md:1",
+      "rel": "defines",
+      "src": "doc:nextGen.md"
+    },
+    {
       "dst": "script:dp3/build_c4z.py",
       "evidence": "Dockerfile:4",
       "rel": "bundles",
@@ -44,6 +386,162 @@
       "src": "manifest:action.yml"
     },
     {
+      "dst": "symbol:action.yml#description",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.allowexecute",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.allowexecute.description",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.allowexecute.required",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.c4zproj",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.c4zproj.description",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.c4zproj.required",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.outputDir",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.outputDir.default",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.outputDir.description",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.outputDir.required",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.projectDir",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.projectDir.description",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.projectDir.required",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.updateModified",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.updateModified.description",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.updateModified.required",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.version",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.version.description",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#inputs.version.required",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#name",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#runs",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#runs.args",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#runs.image",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
+      "dst": "symbol:action.yml#runs.using",
+      "evidence": "action.yml:1",
+      "rel": "defines",
+      "src": "manifest:action.yml"
+    },
+    {
       "dst": "script:generator/project_graph.py",
       "evidence": ".github/tests/test-graph-freshness.sh:175",
       "rel": "runs",
@@ -62,6 +560,156 @@
       "src": "script:.github/tests/test-graph-freshness.sh"
     },
     {
+      "dst": "symbol:.github/tests/test-graph-freshness.sh#bad",
+      "evidence": ".github/tests/test-graph-freshness.sh:1",
+      "rel": "defines",
+      "src": "script:.github/tests/test-graph-freshness.sh"
+    },
+    {
+      "dst": "symbol:.github/tests/test-graph-freshness.sh#check_artifacts",
+      "evidence": ".github/tests/test-graph-freshness.sh:1",
+      "rel": "defines",
+      "src": "script:.github/tests/test-graph-freshness.sh"
+    },
+    {
+      "dst": "symbol:.github/tests/test-graph-freshness.sh#check_fingerprint",
+      "evidence": ".github/tests/test-graph-freshness.sh:1",
+      "rel": "defines",
+      "src": "script:.github/tests/test-graph-freshness.sh"
+    },
+    {
+      "dst": "symbol:.github/tests/test-graph-freshness.sh#check_rebuild",
+      "evidence": ".github/tests/test-graph-freshness.sh:1",
+      "rel": "defines",
+      "src": "script:.github/tests/test-graph-freshness.sh"
+    },
+    {
+      "dst": "symbol:.github/tests/test-graph-freshness.sh#check_schema",
+      "evidence": ".github/tests/test-graph-freshness.sh:1",
+      "rel": "defines",
+      "src": "script:.github/tests/test-graph-freshness.sh"
+    },
+    {
+      "dst": "symbol:.github/tests/test-graph-freshness.sh#ok",
+      "evidence": ".github/tests/test-graph-freshness.sh:1",
+      "rel": "defines",
+      "src": "script:.github/tests/test-graph-freshness.sh"
+    },
+    {
+      "dst": "symbol:.github/tests/test-graph-freshness.sh#skip",
+      "evidence": ".github/tests/test-graph-freshness.sh:1",
+      "rel": "defines",
+      "src": "script:.github/tests/test-graph-freshness.sh"
+    },
+    {
+      "dst": "symbol:.github/tests/test-graph-freshness.sh#tracked_clean",
+      "evidence": ".github/tests/test-graph-freshness.sh:1",
+      "rel": "defines",
+      "src": "script:.github/tests/test-graph-freshness.sh"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.AddCommonC4ZFiles",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CleanupTempFiles",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateC4Z",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateEncryptedC4Z",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateEncryptedC4Z.DoSquish",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateEncryptedC4Z.DoSquish.AddSquishModule",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateEncryptedC4Z.EncryptSquishedFile",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.DoC4ZCreation",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.GetProjectInfo",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.TweakFiles",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#CreateC4Z.__init__",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#ExtractAllRequired",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#ExtractAllRequired.LuaFile",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#ExtractAllRequired.LuaFile.TraverseRequiredFiles",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#ExtractAllRequired.LuaFile.__init__",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
+      "dst": "symbol:createc4z/CreateC4Z.py#main",
+      "evidence": "createc4z/CreateC4Z.py:1",
+      "rel": "defines",
+      "src": "script:createc4z/CreateC4Z.py"
+    },
+    {
       "dst": "script:dp/encrypt_c4z.py",
       "evidence": "dp/build_c4z.py:16",
       "rel": "requires",
@@ -74,9 +722,99 @@
       "src": "script:dp/driverpackager.py"
     },
     {
+      "dst": "symbol:dp/encrypt_c4z.py#encrypt",
+      "evidence": "dp/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp/encrypt_c4z.py"
+    },
+    {
+      "dst": "symbol:dp/encrypt_c4z.py#get_devicedata",
+      "evidence": "dp/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp/encrypt_c4z.py"
+    },
+    {
+      "dst": "symbol:dp/encrypt_c4z.py#get_encrypt_filename",
+      "evidence": "dp/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp/encrypt_c4z.py"
+    },
+    {
       "dst": "script:dp3/encrypt_c4z.py",
       "evidence": "dp3/build_c4z.py:18",
       "rel": "requires",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#GetSquishyInputFile",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#GetSquishyInputOutputFile",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#GetSquishyOutputFile",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#GetSquishySource",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#Log",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#compress",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#compressFileList",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#compressLists",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#extract",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#package",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#setC4i",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/build_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/build_c4z.py#setSquishLua",
+      "evidence": "dp3/build_c4z.py:1",
+      "rel": "defines",
       "src": "script:dp3/build_c4z.py"
     },
     {
@@ -84,6 +822,132 @@
       "evidence": "dp3/driverpackager.py:22",
       "rel": "requires",
       "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.CleanupTmpFile",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.CreateFromManifest",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.DriverPackager",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.GetEncryptFilename",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.Log",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.ParseXml",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.Squish",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.UpdateDriverXml",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#DriverPackager.__init__",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/driverpackager.py#main",
+      "evidence": "dp3/driverpackager.py:1",
+      "rel": "defines",
+      "src": "script:dp3/driverpackager.py"
+    },
+    {
+      "dst": "symbol:dp3/encrypt_c4z.py#encrypt",
+      "evidence": "dp3/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/encrypt_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/encrypt_c4z.py#get_devicedata",
+      "evidence": "dp3/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/encrypt_c4z.py"
+    },
+    {
+      "dst": "symbol:dp3/encrypt_c4z.py#get_encrypt_filename",
+      "evidence": "dp3/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dp3/encrypt_c4z.py"
+    },
+    {
+      "dst": "symbol:dplite/createsquishy.py#LuaFile",
+      "evidence": "dplite/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite/createsquishy.py#LuaFile.IsAlreadyIncluded",
+      "evidence": "dplite/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite/createsquishy.py#LuaFile.TraverseRequiredFiles",
+      "evidence": "dplite/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite/createsquishy.py#LuaFile.__init__",
+      "evidence": "dplite/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite/createsquishy.py#createsq",
+      "evidence": "dplite/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite/createsquishy.py#extractFromProjFile",
+      "evidence": "dplite/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite/createsquishy.py#writeSquishyFile",
+      "evidence": "dplite/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite/createsquishy.py"
     },
     {
       "dst": "script:dp/encrypt_c4z.py",
@@ -98,6 +962,138 @@
       "src": "script:dplite/driverpackagerlite.py"
     },
     {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.CleanupTmpFile",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.CreateFromManifest",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.DriverPackagerLite",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.GetSquishyOutputFile",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.GetStartLuaFilename",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.Log",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.ParseXml",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.Squish",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.__init__",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.compressDirsLists",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.compressFileList",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.createC4z",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.createSquishedC4z",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite/driverpackagerlite.py#main",
+      "evidence": "dplite/driverpackagerlite.py:1",
+      "rel": "defines",
+      "src": "script:dplite/driverpackagerlite.py"
+    },
+    {
+      "dst": "symbol:dplite3/createsquishy.py#LuaFile",
+      "evidence": "dplite3/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite3/createsquishy.py#LuaFile.IsAlreadyIncluded",
+      "evidence": "dplite3/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite3/createsquishy.py#LuaFile.TraverseRequiredFiles",
+      "evidence": "dplite3/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite3/createsquishy.py#LuaFile.__init__",
+      "evidence": "dplite3/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite3/createsquishy.py#createsq",
+      "evidence": "dplite3/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite3/createsquishy.py#extractFromProjFile",
+      "evidence": "dplite3/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/createsquishy.py"
+    },
+    {
+      "dst": "symbol:dplite3/createsquishy.py#writeSquishyFile",
+      "evidence": "dplite3/createsquishy.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/createsquishy.py"
+    },
+    {
       "dst": "script:dplite3/createsquishy.py",
       "evidence": "dplite3/driverpackagerlite3.py:23",
       "rel": "requires",
@@ -110,10 +1106,652 @@
       "src": "script:dplite3/driverpackagerlite3.py"
     },
     {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.CleanupTmpFile",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.CreateFromManifest",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.DriverPackagerLite",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.GetSquishyOutputFile",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.GetStartLuaFilename",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.Log",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.ParseXml",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.Squish",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.__init__",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.compressDirsLists",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.compressFileList",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.createC4z",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.createSquishedC4z",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/driverpackagerlite3.py#main",
+      "evidence": "dplite3/driverpackagerlite3.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/driverpackagerlite3.py"
+    },
+    {
+      "dst": "symbol:dplite3/encrypt_c4z.py#encrypt",
+      "evidence": "dplite3/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/encrypt_c4z.py"
+    },
+    {
+      "dst": "symbol:dplite3/encrypt_c4z.py#get_devicedata",
+      "evidence": "dplite3/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/encrypt_c4z.py"
+    },
+    {
+      "dst": "symbol:dplite3/encrypt_c4z.py#get_encrypt_filename",
+      "evidence": "dplite3/encrypt_c4z.py:1",
+      "rel": "defines",
+      "src": "script:dplite3/encrypt_c4z.py"
+    },
+    {
       "dst": "script:dp/driverpackager.py",
       "evidence": "entrypoint.sh:5",
       "rel": "runs",
       "src": "script:entrypoint.sh"
+    },
+    {
+      "dst": "symbol:generator/diagnostics.py#diff_graphs",
+      "evidence": "generator/diagnostics.py:1",
+      "rel": "defines",
+      "src": "script:generator/diagnostics.py"
+    },
+    {
+      "dst": "symbol:generator/diagnostics.py#diff_graphs.triple",
+      "evidence": "generator/diagnostics.py:1",
+      "rel": "defines",
+      "src": "script:generator/diagnostics.py"
+    },
+    {
+      "dst": "symbol:generator/diagnostics.py#gap_category",
+      "evidence": "generator/diagnostics.py:1",
+      "rel": "defines",
+      "src": "script:generator/diagnostics.py"
+    },
+    {
+      "dst": "symbol:generator/diagnostics.py#render",
+      "evidence": "generator/diagnostics.py:1",
+      "rel": "defines",
+      "src": "script:generator/diagnostics.py"
+    },
+    {
+      "dst": "symbol:generator/diagnostics.py#summarize_gaps",
+      "evidence": "generator/diagnostics.py:1",
+      "rel": "defines",
+      "src": "script:generator/diagnostics.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#Ctx",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#Ctx.__init__",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#Ctx.add",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#dispatch_key",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#enabled_extractors",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_asset",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_doc",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_driver_xml",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_lua",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_manifest",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_page",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_script_go",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_script_py",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_script_sh",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#ex_workflow",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#first_lineno",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#is_external",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#lang_for",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#lua_index",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#register",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#register.wrap",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#resolve",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#resolve_lua",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#resolve_lua.score",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#resolve_py",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/extractors.py#strip_qs",
+      "evidence": "generator/extractors.py:1",
+      "rel": "defines",
+      "src": "script:generator/extractors.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_cut",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_driver_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_enclosing",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_entry",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_fill_ends",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_find_line",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_first_lines",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_generic_config_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_is_test_file",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_js_calls_imports",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_js_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_json_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_json_walk",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_lua_calls_imports",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_lua_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_lua_parent",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_md_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_mod_to_file",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_php_calls_imports",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_php_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_ps1_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_py_calls_imports",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_py_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_py_outline.doc_of",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_py_outline.sig_at",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_py_outline.walk",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_read_file",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_scrub_literals",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_selftest",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_selftest.check",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_sh_calls_imports",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_sh_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_skip_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_sort_entries",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_toml_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_try_ts_calls",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_try_ts_calls.walk",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_unit_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#_yaml_outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#edges",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#edges.resolve",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#is_secret_token",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#main",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#outline",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/graph_symbols.py#purpose",
+      "evidence": "generator/graph_symbols.py:1",
+      "rel": "defines",
+      "src": "script:generator/graph_symbols.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#build_manifest",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#candidate_rels",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#changed_files",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#fingerprint",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#git_commit",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#load_manifest",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#needs_rebuild",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#rel_inside",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#save_manifest",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#sha256_bytes",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#sha256_file",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#tracked_files",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
+    },
+    {
+      "dst": "symbol:generator/manifest.py#walk_files",
+      "evidence": "generator/manifest.py:1",
+      "rel": "defines",
+      "src": "script:generator/manifest.py"
     },
     {
       "dst": "script:generator/diagnostics.py",
@@ -128,9 +1766,159 @@
       "src": "script:generator/project_graph.py"
     },
     {
+      "dst": "script:generator/graph_symbols.py",
+      "evidence": "generator/project_graph.py:58",
+      "rel": "requires",
+      "src": "script:generator/project_graph.py"
+    },
+    {
       "dst": "script:generator/manifest.py",
       "evidence": "generator/project_graph.py:32",
       "rel": "requires",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#_basenames",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#_graph_blob",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#_output_rels",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#build_graph",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#cfg_secret_globs",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#cfg_skip_dirs",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#cfg_skip_suffixes",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#check",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#classify",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#cmd_build",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#cmd_diagnostics",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#cmd_manifest",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#cmd_selftest",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#collect",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#default_config",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#extract_edges",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#is_binary",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#is_secret_token",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#load_config",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#main",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#nowstamp",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#read_text",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#secret_names_in",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
+      "src": "script:generator/project_graph.py"
+    },
+    {
+      "dst": "symbol:generator/project_graph.py#write_fixture",
+      "evidence": "generator/project_graph.py:1",
+      "rel": "defines",
       "src": "script:generator/project_graph.py"
     },
     {
@@ -161,6 +1949,90 @@
       "dst": "script:generator/project_graph.py",
       "evidence": ".github/workflows/graph-freshness.yml:81",
       "rel": "runs",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#jobs",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#jobs.graph-freshness",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#jobs.graph-freshness.env",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#jobs.graph-freshness.runs-on",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#jobs.graph-freshness.steps",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#name",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#on",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#on.pull_request",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#on.push",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#on.schedule",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#on.schedule.cron",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#on.workflow_dispatch",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#permissions",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
+      "src": "workflow:.github/workflows/graph-freshness.yml"
+    },
+    {
+      "dst": "symbol:.github/workflows/graph-freshness.yml#permissions.contents",
+      "evidence": ".github/workflows/graph-freshness.yml:1",
+      "rel": "defines",
       "src": "workflow:.github/workflows/graph-freshness.yml"
     }
   ],
@@ -196,42 +2068,42 @@
       "item": ".github/workflows/graph-freshness.yml mentions secret-shaped name 'secret' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:201",
+      "evidence": "Documentation/architecture/codebase-graph.json:1797",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:api_key",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'API_KEY' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:206",
+      "evidence": "Documentation/architecture/codebase-graph.json:1802",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:license_salt",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'LICENSE_SALT' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:206",
+      "evidence": "Documentation/architecture/codebase-graph.json:1802",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:salt",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SALT' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:216",
+      "evidence": "Documentation/architecture/codebase-graph.json:1812",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_basenames",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_BASENAMES' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:221",
+      "evidence": "Documentation/architecture/codebase-graph.json:1817",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_globs",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_GLOBS' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:226",
+      "evidence": "Documentation/architecture/codebase-graph.json:1822",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_single",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_SINGLE' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:231",
+      "evidence": "Documentation/architecture/codebase-graph.json:1827",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_substrs",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_SUBSTRS' (value not recorded)"
     },
     {
-      "evidence": "Documentation/architecture/codebase-graph.json:236",
+      "evidence": "Documentation/architecture/codebase-graph.json:1832",
       "id": "secret-name:Documentation/architecture/codebase-graph.json:secret_token_re",
       "item": "Documentation/architecture/codebase-graph.json mentions secret-shaped name 'SECRET_TOKEN_RE' (value not recorded)"
     },
@@ -246,14 +2118,54 @@
       "item": "generator/diagnostics.py mentions secret-shaped name 'secret' (value not recorded)"
     },
     {
-      "evidence": "generator/extractors.py:36",
+      "evidence": "generator/extractors.py:91",
       "id": "secret-name:generator/extractors.py:sh_token_re",
       "item": "generator/extractors.py mentions secret-shaped name 'SH_TOKEN_RE' (value not recorded)"
     },
     {
-      "evidence": "generator/extractors.py:67",
+      "evidence": "generator/extractors.py:122",
       "id": "secret-name:generator/extractors.py:token",
       "item": "generator/extractors.py mentions secret-shaped name 'token' (value not recorded)"
+    },
+    {
+      "evidence": "generator/graph_symbols.py:64",
+      "id": "secret-name:generator/graph_symbols.py:api_key",
+      "item": "generator/graph_symbols.py mentions secret-shaped name 'api_key' (value not recorded)"
+    },
+    {
+      "evidence": "generator/graph_symbols.py:64",
+      "id": "secret-name:generator/graph_symbols.py:apikey",
+      "item": "generator/graph_symbols.py mentions secret-shaped name 'apikey' (value not recorded)"
+    },
+    {
+      "evidence": "generator/graph_symbols.py:65",
+      "id": "secret-name:generator/graph_symbols.py:bearer",
+      "item": "generator/graph_symbols.py mentions secret-shaped name 'bearer' (value not recorded)"
+    },
+    {
+      "evidence": "generator/graph_symbols.py:26",
+      "id": "secret-name:generator/graph_symbols.py:is_secret_token",
+      "item": "generator/graph_symbols.py mentions secret-shaped name 'is_secret_token' (value not recorded)"
+    },
+    {
+      "evidence": "generator/graph_symbols.py:63",
+      "id": "secret-name:generator/graph_symbols.py:passwd",
+      "item": "generator/graph_symbols.py mentions secret-shaped name 'passwd' (value not recorded)"
+    },
+    {
+      "evidence": "generator/graph_symbols.py:66",
+      "id": "secret-name:generator/graph_symbols.py:secret_single",
+      "item": "generator/graph_symbols.py mentions secret-shaped name 'SECRET_SINGLE' (value not recorded)"
+    },
+    {
+      "evidence": "generator/graph_symbols.py:63",
+      "id": "secret-name:generator/graph_symbols.py:secret_substrs",
+      "item": "generator/graph_symbols.py mentions secret-shaped name 'SECRET_SUBSTRS' (value not recorded)"
+    },
+    {
+      "evidence": "generator/graph_symbols.py:62",
+      "id": "secret-name:generator/graph_symbols.py:secret_token_re",
+      "item": "generator/graph_symbols.py mentions secret-shaped name 'SECRET_TOKEN_RE' (value not recorded)"
     },
     {
       "evidence": "generator/manifest.py:11",
@@ -261,42 +2173,42 @@
       "item": "generator/manifest.py mentions secret-shaped name 'secret' (value not recorded)"
     },
     {
-      "evidence": "generator/project_graph.py:489",
+      "evidence": "generator/project_graph.py:535",
       "id": "secret-name:generator/project_graph.py:api_key",
       "item": "generator/project_graph.py mentions secret-shaped name 'API_KEY' (value not recorded)"
     },
     {
-      "evidence": "generator/project_graph.py:487",
+      "evidence": "generator/project_graph.py:533",
       "id": "secret-name:generator/project_graph.py:license_salt",
       "item": "generator/project_graph.py mentions secret-shaped name 'LICENSE_SALT' (value not recorded)"
     },
     {
-      "evidence": "generator/project_graph.py:85",
+      "evidence": "generator/project_graph.py:87",
       "id": "secret-name:generator/project_graph.py:salt",
       "item": "generator/project_graph.py mentions secret-shaped name 'SALT' (value not recorded)"
     },
     {
-      "evidence": "generator/project_graph.py:75",
+      "evidence": "generator/project_graph.py:77",
       "id": "secret-name:generator/project_graph.py:secret_basenames",
       "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_BASENAMES' (value not recorded)"
     },
     {
-      "evidence": "generator/project_graph.py:77",
+      "evidence": "generator/project_graph.py:79",
       "id": "secret-name:generator/project_graph.py:secret_globs",
       "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_GLOBS' (value not recorded)"
     },
     {
-      "evidence": "generator/project_graph.py:91",
+      "evidence": "generator/project_graph.py:93",
       "id": "secret-name:generator/project_graph.py:secret_single",
       "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_SINGLE' (value not recorded)"
     },
     {
-      "evidence": "generator/project_graph.py:88",
+      "evidence": "generator/project_graph.py:90",
       "id": "secret-name:generator/project_graph.py:secret_substrs",
       "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_SUBSTRS' (value not recorded)"
     },
     {
-      "evidence": "generator/project_graph.py:87",
+      "evidence": "generator/project_graph.py:89",
       "id": "secret-name:generator/project_graph.py:secret_token_re",
       "item": "generator/project_graph.py mentions secret-shaped name 'SECRET_TOKEN_RE' (value not recorded)"
     },
@@ -311,12 +2223,14 @@
       "item": "graph.config.json mentions secret-shaped name 'secrets_policy' (value not recorded)"
     }
   ],
-  "generated_at": "2026-11-21T17:46:08Z",
+  "generated_at": "2026-11-22T08:09:34Z",
   "nodes": [
     {
       "attrs": {
+        "lang": "text",
         "lines": 6,
-        "path": ".dockerignore"
+        "path": ".dockerignore",
+        "purpose": ".pyc"
       },
       "id": "config:.dockerignore",
       "source": ".dockerignore",
@@ -324,8 +2238,10 @@
     },
     {
       "attrs": {
-        "lines": 189,
-        "path": ".githooks/pre-push"
+        "lang": "text",
+        "lines": 191,
+        "path": ".githooks/pre-push",
+        "purpose": "project-graph pre-push freshness gate (template hook; travels with the repo)."
       },
       "id": "config:.githooks/pre-push",
       "source": ".githooks/pre-push",
@@ -333,8 +2249,10 @@
     },
     {
       "attrs": {
+        "lang": "text",
         "lines": 2,
-        "path": ".gitignore"
+        "path": ".gitignore",
+        "purpose": ".pyc"
       },
       "id": "config:.gitignore",
       "source": ".gitignore",
@@ -342,8 +2260,10 @@
     },
     {
       "attrs": {
-        "lines": 779,
-        "path": "Documentation/architecture/codebase-graph.json"
+        "lang": "json",
+        "lines": 5118,
+        "path": "Documentation/architecture/codebase-graph.json",
+        "purpose": ""
       },
       "id": "config:Documentation/architecture/codebase-graph.json",
       "source": "Documentation/architecture/codebase-graph.json",
@@ -351,8 +2271,10 @@
     },
     {
       "attrs": {
+        "lang": "text",
         "lines": 2,
-        "path": "graph-template-VERSION"
+        "path": "graph-template-VERSION",
+        "purpose": ""
       },
       "id": "config:graph-template-VERSION",
       "source": "graph-template-VERSION",
@@ -360,8 +2282,10 @@
     },
     {
       "attrs": {
+        "lang": "json",
         "lines": 20,
-        "path": "graph.config.json"
+        "path": "graph.config.json",
+        "purpose": ""
       },
       "id": "config:graph.config.json",
       "source": "graph.config.json",
@@ -369,8 +2293,10 @@
     },
     {
       "attrs": {
+        "lang": "json",
         "lines": 52,
-        "path": "manifest.schema.json"
+        "path": "manifest.schema.json",
+        "purpose": ""
       },
       "id": "config:manifest.schema.json",
       "source": "manifest.schema.json",
@@ -378,8 +2304,10 @@
     },
     {
       "attrs": {
+        "lang": "markdown",
         "lines": 42,
-        "path": "AGENTS.md"
+        "path": "AGENTS.md",
+        "purpose": "driver-packager \u2014 Codex executors"
       },
       "id": "doc:AGENTS.md",
       "source": "AGENTS.md",
@@ -387,8 +2315,10 @@
     },
     {
       "attrs": {
+        "lang": "markdown",
         "lines": 112,
-        "path": "LICENSE.md"
+        "path": "LICENSE.md",
+        "purpose": "License, Copyright, and Trademark"
       },
       "id": "doc:LICENSE.md",
       "source": "LICENSE.md",
@@ -396,8 +2326,10 @@
     },
     {
       "attrs": {
+        "lang": "markdown",
         "lines": 124,
-        "path": "README.md"
+        "path": "README.md",
+        "purpose": "Driver Packager"
       },
       "id": "doc:README.md",
       "source": "README.md",
@@ -405,8 +2337,10 @@
     },
     {
       "attrs": {
+        "lang": "markdown",
         "lines": 57,
-        "path": "createc4z/README.md"
+        "path": "createc4z/README.md",
+        "purpose": "CreateC4Z"
       },
       "id": "doc:createc4z/README.md",
       "source": "createc4z/README.md",
@@ -414,8 +2348,10 @@
     },
     {
       "attrs": {
+        "lang": "markdown",
         "lines": 229,
-        "path": "nextGen.md"
+        "path": "nextGen.md",
+        "purpose": "Next Generation of Driver Packager"
       },
       "id": "doc:nextGen.md",
       "source": "nextGen.md",
@@ -423,8 +2359,10 @@
     },
     {
       "attrs": {
+        "lang": "dockerfile",
         "lines": 14,
-        "path": "Dockerfile"
+        "path": "Dockerfile",
+        "purpose": ""
       },
       "id": "manifest:Dockerfile",
       "source": "Dockerfile",
@@ -432,8 +2370,10 @@
     },
     {
       "attrs": {
+        "lang": "yaml",
         "lines": 33,
-        "path": "action.yml"
+        "path": "action.yml",
+        "purpose": ""
       },
       "id": "manifest:action.yml",
       "source": "action.yml",
@@ -441,8 +2381,10 @@
     },
     {
       "attrs": {
+        "lang": "bash",
         "lines": 226,
-        "path": ".github/tests/test-graph-freshness.sh"
+        "path": ".github/tests/test-graph-freshness.sh",
+        "purpose": "Self-test for .github/workflows/graph-freshness.yml (graph-freshness gate)."
       },
       "id": "script:.github/tests/test-graph-freshness.sh",
       "source": ".github/tests/test-graph-freshness.sh",
@@ -450,8 +2392,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 298,
-        "path": "createc4z/CreateC4Z.py"
+        "path": "createc4z/CreateC4Z.py",
+        "purpose": "File is: CreateC4Z.py"
       },
       "id": "script:createc4z/CreateC4Z.py",
       "source": "createc4z/CreateC4Z.py",
@@ -459,8 +2403,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 339,
-        "path": "dp/build_c4z.py"
+        "path": "dp/build_c4z.py",
+        "purpose": ""
       },
       "id": "script:dp/build_c4z.py",
       "source": "dp/build_c4z.py",
@@ -468,8 +2414,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 520,
-        "path": "dp/driverpackager.py"
+        "path": "dp/driverpackager.py",
+        "purpose": ""
       },
       "id": "script:dp/driverpackager.py",
       "source": "dp/driverpackager.py",
@@ -477,8 +2425,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 90,
-        "path": "dp/encrypt_c4z.py"
+        "path": "dp/encrypt_c4z.py",
+        "purpose": "Copyright 2018 Control4 Corporation. All Rights Reserved."
       },
       "id": "script:dp/encrypt_c4z.py",
       "source": "dp/encrypt_c4z.py",
@@ -486,8 +2436,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 371,
-        "path": "dp3/build_c4z.py"
+        "path": "dp3/build_c4z.py",
+        "purpose": "Copyright 2023 Snap One, LLC. All Rights Reserved."
       },
       "id": "script:dp3/build_c4z.py",
       "source": "dp3/build_c4z.py",
@@ -495,8 +2447,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 568,
-        "path": "dp3/driverpackager.py"
+        "path": "dp3/driverpackager.py",
+        "purpose": "Copyright 2020 Wirepath Home Systems, LLC. All Rights Reserved."
       },
       "id": "script:dp3/driverpackager.py",
       "source": "dp3/driverpackager.py",
@@ -504,8 +2458,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 91,
-        "path": "dp3/encrypt_c4z.py"
+        "path": "dp3/encrypt_c4z.py",
+        "purpose": "Copyright 2020 Wirepath Home Systems, LLC. All Rights Reserved."
       },
       "id": "script:dp3/encrypt_c4z.py",
       "source": "dp3/encrypt_c4z.py",
@@ -513,8 +2469,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 197,
-        "path": "dplite/createsquishy.py"
+        "path": "dplite/createsquishy.py",
+        "purpose": "File is: createsquishy.py"
       },
       "id": "script:dplite/createsquishy.py",
       "source": "dplite/createsquishy.py",
@@ -522,8 +2480,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 514,
-        "path": "dplite/driverpackagerlite.py"
+        "path": "dplite/driverpackagerlite.py",
+        "purpose": "Copyright 2019 Control4 Corporation. All Rights Reserved."
       },
       "id": "script:dplite/driverpackagerlite.py",
       "source": "dplite/driverpackagerlite.py",
@@ -531,8 +2491,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 197,
-        "path": "dplite3/createsquishy.py"
+        "path": "dplite3/createsquishy.py",
+        "purpose": "File is: createsquishy.py"
       },
       "id": "script:dplite3/createsquishy.py",
       "source": "dplite3/createsquishy.py",
@@ -540,8 +2502,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 507,
-        "path": "dplite3/driverpackagerlite3.py"
+        "path": "dplite3/driverpackagerlite3.py",
+        "purpose": "Copyright 2019 Control4 Corporation. All Rights Reserved."
       },
       "id": "script:dplite3/driverpackagerlite3.py",
       "source": "dplite3/driverpackagerlite3.py",
@@ -549,8 +2513,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 90,
-        "path": "dplite3/encrypt_c4z.py"
+        "path": "dplite3/encrypt_c4z.py",
+        "purpose": "Copyright 2018 Control4 Corporation. All Rights Reserved."
       },
       "id": "script:dplite3/encrypt_c4z.py",
       "source": "dplite3/encrypt_c4z.py",
@@ -558,8 +2524,10 @@
     },
     {
       "attrs": {
+        "lang": "bash",
         "lines": 20,
-        "path": "entrypoint.sh"
+        "path": "entrypoint.sh",
+        "purpose": ""
       },
       "id": "script:entrypoint.sh",
       "source": "entrypoint.sh",
@@ -567,8 +2535,10 @@
     },
     {
       "attrs": {
+        "lang": "python",
         "lines": 74,
-        "path": "generator/diagnostics.py"
+        "path": "generator/diagnostics.py",
+        "purpose": "Diagnostics: gap summaries and graph drift for the template core."
       },
       "id": "script:generator/diagnostics.py",
       "source": "generator/diagnostics.py",
@@ -576,8 +2546,10 @@
     },
     {
       "attrs": {
-        "lines": 426,
-        "path": "generator/extractors.py"
+        "lang": "python",
+        "lines": 481,
+        "path": "generator/extractors.py",
+        "purpose": "Configurable edge-extractor registry for the project-graph template core."
       },
       "id": "script:generator/extractors.py",
       "source": "generator/extractors.py",
@@ -585,8 +2557,21 @@
     },
     {
       "attrs": {
+        "lang": "python",
+        "lines": 1127,
+        "path": "generator/graph_symbols.py",
+        "purpose": "W13 I1 symbol extractor: stdlib-only file purpose + outline + edges."
+      },
+      "id": "script:generator/graph_symbols.py",
+      "source": "generator/graph_symbols.py",
+      "type": "script"
+    },
+    {
+      "attrs": {
+        "lang": "python",
         "lines": 193,
-        "path": "generator/manifest.py"
+        "path": "generator/manifest.py",
+        "purpose": "Manifest + fingerprint + incremental-build support."
       },
       "id": "script:generator/manifest.py",
       "source": "generator/manifest.py",
@@ -594,8 +2579,10 @@
     },
     {
       "attrs": {
-        "lines": 724,
-        "path": "generator/project_graph.py"
+        "lang": "python",
+        "lines": 803,
+        "path": "generator/project_graph.py",
+        "purpose": "Template project-graph generator core (stdlib only)."
       },
       "id": "script:generator/project_graph.py",
       "source": "generator/project_graph.py",
@@ -603,8 +2590,10 @@
     },
     {
       "attrs": {
+        "lang": "go",
         "lines": 63,
-        "path": "gosquish/squishLua.go"
+        "path": "gosquish/squishLua.go",
+        "purpose": ""
       },
       "id": "script:gosquish/squishLua.go",
       "source": "gosquish/squishLua.go",
@@ -612,8 +2601,3120 @@
     },
     {
       "attrs": {
+        "kind": "bash-fn",
+        "parent": "",
+        "signature": "bad() { FAIL=$((FAIL+1)); echo ...; }"
+      },
+      "id": "symbol:.github/tests/test-graph-freshness.sh#bad",
+      "source": ".github/tests/test-graph-freshness.sh",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "bash-fn",
+        "parent": "",
+        "signature": "check_artifacts() { # $1 = root"
+      },
+      "id": "symbol:.github/tests/test-graph-freshness.sh#check_artifacts",
+      "source": ".github/tests/test-graph-freshness.sh",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "bash-fn",
+        "parent": "",
+        "signature": "check_fingerprint() { # $1 = root"
+      },
+      "id": "symbol:.github/tests/test-graph-freshness.sh#check_fingerprint",
+      "source": ".github/tests/test-graph-freshness.sh",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "bash-fn",
+        "parent": "",
+        "signature": "check_rebuild() { # $1 = root"
+      },
+      "id": "symbol:.github/tests/test-graph-freshness.sh#check_rebuild",
+      "source": ".github/tests/test-graph-freshness.sh",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "bash-fn",
+        "parent": "",
+        "signature": "check_schema() { # $1 = root"
+      },
+      "id": "symbol:.github/tests/test-graph-freshness.sh#check_schema",
+      "source": ".github/tests/test-graph-freshness.sh",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "bash-fn",
+        "parent": "",
+        "signature": "ok() { PASS=$((PASS+1)); echo ...; }"
+      },
+      "id": "symbol:.github/tests/test-graph-freshness.sh#ok",
+      "source": ".github/tests/test-graph-freshness.sh",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "bash-fn",
+        "parent": "",
+        "signature": "skip() { SKIP=$((SKIP+1)); echo ...; }"
+      },
+      "id": "symbol:.github/tests/test-graph-freshness.sh#skip",
+      "source": ".github/tests/test-graph-freshness.sh",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "bash-fn",
+        "parent": "",
+        "signature": "tracked_clean() { [ -z ...$ROOT... ]; }"
+      },
+      "id": "symbol:.github/tests/test-graph-freshness.sh#tracked_clean",
+      "source": ".github/tests/test-graph-freshness.sh",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "jobs = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#jobs",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "jobs",
+        "signature": "jobs.graph-freshness = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#jobs.graph-freshness",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "jobs.graph-freshness",
+        "signature": "jobs.graph-freshness.env = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#jobs.graph-freshness.env",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "jobs.graph-freshness",
+        "signature": "jobs.graph-freshness.runs-on = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#jobs.graph-freshness.runs-on",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "jobs.graph-freshness",
+        "signature": "jobs.graph-freshness.steps = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#jobs.graph-freshness.steps",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "name = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#name",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "on = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#on",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "on",
+        "signature": "on.pull_request = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#on.pull_request",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "on",
+        "signature": "on.push = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#on.push",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "on",
+        "signature": "on.schedule = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#on.schedule",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "on.schedule",
+        "signature": "on.schedule.cron = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#on.schedule.cron",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "on",
+        "signature": "on.workflow_dispatch = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#on.workflow_dispatch",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "permissions = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#permissions",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "permissions",
+        "signature": "permissions.contents = ..."
+      },
+      "id": "symbol:.github/workflows/graph-freshness.yml#permissions.contents",
+      "source": ".github/workflows/graph-freshness.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "driver-packager \u2014 Codex executors",
+        "signature": "## Commands (as documented)"
+      },
+      "id": "symbol:AGENTS.md#Commands (as documented)",
+      "source": "AGENTS.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "driver-packager \u2014 Codex executors",
+        "signature": "## Graph"
+      },
+      "id": "symbol:AGENTS.md#Graph",
+      "source": "AGENTS.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "driver-packager \u2014 Codex executors",
+        "signature": "## Layout"
+      },
+      "id": "symbol:AGENTS.md#Layout",
+      "source": "AGENTS.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "driver-packager \u2014 Codex executors",
+        "signature": "## Safety"
+      },
+      "id": "symbol:AGENTS.md#Safety",
+      "source": "AGENTS.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "driver-packager \u2014 Codex executors",
+        "signature": "## What this is"
+      },
+      "id": "symbol:AGENTS.md#What this is",
+      "source": "AGENTS.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "",
+        "signature": "# driver-packager \u2014 Codex executors"
+      },
+      "id": "symbol:AGENTS.md#driver-packager \u2014 Codex executors",
+      "source": "AGENTS.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "License, Copyright, and Trademark",
+        "signature": "## Contact Us"
+      },
+      "id": "symbol:LICENSE.md#Contact Us",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "License, Copyright, and Trademark",
+        "signature": "## Copyright"
+      },
+      "id": "symbol:LICENSE.md#Copyright",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "License, Copyright, and Trademark",
+        "signature": "## Derivative Works"
+      },
+      "id": "symbol:LICENSE.md#Derivative Works",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "License, Copyright, and Trademark",
+        "signature": "## License and Intellectual Property Disclaimer"
+      },
+      "id": "symbol:LICENSE.md#License and Intellectual Property Disclaimer",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "",
+        "signature": "# License, Copyright, and Trademark"
+      },
+      "id": "symbol:LICENSE.md#License, Copyright, and Trademark",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Third Party Copyright Included In This Repository",
+        "signature": "### LuaSrcDiet"
+      },
+      "id": "symbol:LICENSE.md#LuaSrcDiet",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "LuaSrcDiet",
+        "signature": "#### LuaSrcDiet License Statement"
+      },
+      "id": "symbol:LICENSE.md#LuaSrcDiet License Statement",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Third Party Copyright Included In This Repository",
+        "signature": "### Squish"
+      },
+      "id": "symbol:LICENSE.md#Squish",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Squish",
+        "signature": "#### Squish License Statement"
+      },
+      "id": "symbol:LICENSE.md#Squish License Statement",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "License, Copyright, and Trademark",
+        "signature": "## Third Party Copyright Included In This Repository"
+      },
+      "id": "symbol:LICENSE.md#Third Party Copyright Included In This Repository",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "License, Copyright, and Trademark",
+        "signature": "## Trademarks"
+      },
+      "id": "symbol:LICENSE.md#Trademarks",
+      "source": "LICENSE.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "",
+        "signature": "# Driver Packager"
+      },
+      "id": "symbol:README.md#Driver Packager",
+      "source": "README.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Driver Packager",
+        "signature": "## Driver Packager source files:"
+      },
+      "id": "symbol:README.md#Driver Packager source files:",
+      "source": "README.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Driver Packager",
+        "signature": "## Manifest File format"
+      },
+      "id": "symbol:README.md#Manifest File format",
+      "source": "README.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Driver Packager",
+        "signature": "## Requirements"
+      },
+      "id": "symbol:README.md#Requirements",
+      "source": "README.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Driver Packager",
+        "signature": "## Using Driver Packager in Github Actions"
+      },
+      "id": "symbol:README.md#Using Driver Packager in Github Actions",
+      "source": "README.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Driver Packager",
+        "signature": "## Using Driver Packager to build a .c4z"
+      },
+      "id": "symbol:README.md#Using Driver Packager to build a .c4z",
+      "source": "README.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "Driver Packager",
+        "signature": "## Versions"
+      },
+      "id": "symbol:README.md#Versions",
+      "source": "README.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "description = ..."
+      },
+      "id": "symbol:action.yml#description",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "inputs = ..."
+      },
+      "id": "symbol:action.yml#inputs",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs",
+        "signature": "inputs.allowexecute = ..."
+      },
+      "id": "symbol:action.yml#inputs.allowexecute",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.allowexecute",
+        "signature": "inputs.allowexecute.description = ..."
+      },
+      "id": "symbol:action.yml#inputs.allowexecute.description",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.allowexecute",
+        "signature": "inputs.allowexecute.required = ..."
+      },
+      "id": "symbol:action.yml#inputs.allowexecute.required",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs",
+        "signature": "inputs.c4zproj = ..."
+      },
+      "id": "symbol:action.yml#inputs.c4zproj",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.c4zproj",
+        "signature": "inputs.c4zproj.description = ..."
+      },
+      "id": "symbol:action.yml#inputs.c4zproj.description",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.c4zproj",
+        "signature": "inputs.c4zproj.required = ..."
+      },
+      "id": "symbol:action.yml#inputs.c4zproj.required",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs",
+        "signature": "inputs.outputDir = ..."
+      },
+      "id": "symbol:action.yml#inputs.outputDir",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.outputDir",
+        "signature": "inputs.outputDir.default = ..."
+      },
+      "id": "symbol:action.yml#inputs.outputDir.default",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.outputDir",
+        "signature": "inputs.outputDir.description = ..."
+      },
+      "id": "symbol:action.yml#inputs.outputDir.description",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.outputDir",
+        "signature": "inputs.outputDir.required = ..."
+      },
+      "id": "symbol:action.yml#inputs.outputDir.required",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs",
+        "signature": "inputs.projectDir = ..."
+      },
+      "id": "symbol:action.yml#inputs.projectDir",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.projectDir",
+        "signature": "inputs.projectDir.description = ..."
+      },
+      "id": "symbol:action.yml#inputs.projectDir.description",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.projectDir",
+        "signature": "inputs.projectDir.required = ..."
+      },
+      "id": "symbol:action.yml#inputs.projectDir.required",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs",
+        "signature": "inputs.updateModified = ..."
+      },
+      "id": "symbol:action.yml#inputs.updateModified",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.updateModified",
+        "signature": "inputs.updateModified.description = ..."
+      },
+      "id": "symbol:action.yml#inputs.updateModified.description",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.updateModified",
+        "signature": "inputs.updateModified.required = ..."
+      },
+      "id": "symbol:action.yml#inputs.updateModified.required",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs",
+        "signature": "inputs.version = ..."
+      },
+      "id": "symbol:action.yml#inputs.version",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.version",
+        "signature": "inputs.version.description = ..."
+      },
+      "id": "symbol:action.yml#inputs.version.description",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "inputs.version",
+        "signature": "inputs.version.required = ..."
+      },
+      "id": "symbol:action.yml#inputs.version.required",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "name = ..."
+      },
+      "id": "symbol:action.yml#name",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "runs = ..."
+      },
+      "id": "symbol:action.yml#runs",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "runs",
+        "signature": "runs.args = ..."
+      },
+      "id": "symbol:action.yml#runs.args",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "runs",
+        "signature": "runs.image = ..."
+      },
+      "id": "symbol:action.yml#runs.image",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "runs",
+        "signature": "runs.using = ..."
+      },
+      "id": "symbol:action.yml#runs.using",
+      "source": "action.yml",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "class",
+        "parent": "",
+        "signature": "class CreateC4Z():"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "CreateC4Z",
+        "signature": "def AddCommonC4ZFiles(self, zip):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.AddCommonC4ZFiles",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "CreateC4Z",
+        "signature": "def CleanupTempFiles(self):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CleanupTempFiles",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "CreateC4Z",
+        "signature": "def CreateC4Z(self):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateC4Z",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "CreateC4Z",
+        "signature": "def CreateEncryptedC4Z(self):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateEncryptedC4Z",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "CreateC4Z.CreateEncryptedC4Z",
+        "signature": "def DoSquish():"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateEncryptedC4Z.DoSquish",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "CreateC4Z.CreateEncryptedC4Z.DoSquish",
+        "signature": "def AddSquishModule(ModInfo):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateEncryptedC4Z.DoSquish.AddSquishModule",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "CreateC4Z.CreateEncryptedC4Z",
+        "signature": "def EncryptSquishedFile():"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.CreateEncryptedC4Z.EncryptSquishedFile",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "CreateC4Z",
+        "signature": "def DoC4ZCreation(self):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.DoC4ZCreation",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "CreateC4Z",
+        "signature": "def GetProjectInfo(self):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.GetProjectInfo",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "CreateC4Z",
+        "signature": "def TweakFiles(self):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.TweakFiles",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "CreateC4Z",
+        "signature": "def __init__(self, args):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#CreateC4Z.__init__",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ExtractAllRequired(LuaRefFileMap):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#ExtractAllRequired",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "class",
+        "parent": "ExtractAllRequired",
+        "signature": "class LuaFile:"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#ExtractAllRequired.LuaFile",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "ExtractAllRequired.LuaFile",
+        "signature": "def TraverseRequiredFiles(self, MasterFileList, MasterFileSet, DirRefMap):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#ExtractAllRequired.LuaFile.TraverseRequiredFiles",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "ExtractAllRequired.LuaFile",
+        "signature": "def __init__(self, RefName, DirRefMap):"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#ExtractAllRequired.LuaFile.__init__",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def main():"
+      },
+      "id": "symbol:createc4z/CreateC4Z.py#main",
+      "source": "createc4z/CreateC4Z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "",
+        "signature": "# CreateC4Z"
+      },
+      "id": "symbol:createc4z/README.md#CreateC4Z",
+      "source": "createc4z/README.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def encrypt(filename, outfilename):"
+      },
+      "id": "symbol:dp/encrypt_c4z.py#encrypt",
+      "source": "dp/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def get_devicedata(filename):"
+      },
+      "id": "symbol:dp/encrypt_c4z.py#get_devicedata",
+      "source": "dp/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def get_encrypt_filename(filename):"
+      },
+      "id": "symbol:dp/encrypt_c4z.py#get_encrypt_filename",
+      "source": "dp/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def GetSquishyInputFile(srcDir):"
+      },
+      "id": "symbol:dp3/build_c4z.py#GetSquishyInputFile",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def GetSquishyInputOutputFile(srcDir, keyword):"
+      },
+      "id": "symbol:dp3/build_c4z.py#GetSquishyInputOutputFile",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def GetSquishyOutputFile(srcDir):"
+      },
+      "id": "symbol:dp3/build_c4z.py#GetSquishyOutputFile",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def GetSquishySource(srcDir):"
+      },
+      "id": "symbol:dp3/build_c4z.py#GetSquishySource",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def Log(line):"
+      },
+      "id": "symbol:dp3/build_c4z.py#Log",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def compress(c4z, dir, encryptedLua=None, xmlByteOverride=None):"
+      },
+      "id": "symbol:dp3/build_c4z.py#compress",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def compressFileList(c4z, dir, root, files, zip, encryptedLua):"
+      },
+      "id": "symbol:dp3/build_c4z.py#compressFileList",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def compressLists(c4z, dirIn, dirsIn, filesIn, encryptedLua=None, xmlByteOverride=None):"
+      },
+      "id": "symbol:dp3/build_c4z.py#compressLists",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def extract(c4z, dir):"
+      },
+      "id": "symbol:dp3/build_c4z.py#extract",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def package(inargs):"
+      },
+      "id": "symbol:dp3/build_c4z.py#package",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def setC4i(c4i):"
+      },
+      "id": "symbol:dp3/build_c4z.py#setC4i",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def setSquishLua(squishLua):"
+      },
+      "id": "symbol:dp3/build_c4z.py#setSquishLua",
+      "source": "dp3/build_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "class",
+        "parent": "",
+        "signature": "class DriverPackager(object):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def CleanupTmpFile(self, root):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.CleanupTmpFile",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def CreateFromManifest(self, manifestPath):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.CreateFromManifest",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def DriverPackager(self):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.DriverPackager",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def GetEncryptFilename(self, filename):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.GetEncryptFilename",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def Log(self, line):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.Log",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def ParseXml(self, xmlRoot, root, count, errCount):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.ParseXml",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def Squish(self, root):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.Squish",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def UpdateDriverXml(self, driverXmlPath):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.UpdateDriverXml",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackager",
+        "signature": "def __init__(self, args):"
+      },
+      "id": "symbol:dp3/driverpackager.py#DriverPackager.__init__",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def main():"
+      },
+      "id": "symbol:dp3/driverpackager.py#main",
+      "source": "dp3/driverpackager.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def encrypt(filename, outfilename):"
+      },
+      "id": "symbol:dp3/encrypt_c4z.py#encrypt",
+      "source": "dp3/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def get_devicedata(filename):"
+      },
+      "id": "symbol:dp3/encrypt_c4z.py#get_devicedata",
+      "source": "dp3/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def get_encrypt_filename(filename):"
+      },
+      "id": "symbol:dp3/encrypt_c4z.py#get_encrypt_filename",
+      "source": "dp3/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "class",
+        "parent": "",
+        "signature": "class LuaFile:"
+      },
+      "id": "symbol:dplite/createsquishy.py#LuaFile",
+      "source": "dplite/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "LuaFile",
+        "signature": "def IsAlreadyIncluded(self):"
+      },
+      "id": "symbol:dplite/createsquishy.py#LuaFile.IsAlreadyIncluded",
+      "source": "dplite/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "LuaFile",
+        "signature": "def TraverseRequiredFiles(self):"
+      },
+      "id": "symbol:dplite/createsquishy.py#LuaFile.TraverseRequiredFiles",
+      "source": "dplite/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "LuaFile",
+        "signature": "def __init__(self, refName, dirRefs, fileRefs, moduleList):"
+      },
+      "id": "symbol:dplite/createsquishy.py#LuaFile.__init__",
+      "source": "dplite/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def createsq(inProjFile):"
+      },
+      "id": "symbol:dplite/createsquishy.py#createsq",
+      "source": "dplite/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def extractFromProjFile(projFile, dirRefs, fileRefs):"
+      },
+      "id": "symbol:dplite/createsquishy.py#extractFromProjFile",
+      "source": "dplite/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def writeSquishyFile(ModList):"
+      },
+      "id": "symbol:dplite/createsquishy.py#writeSquishyFile",
+      "source": "dplite/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "class",
+        "parent": "",
+        "signature": "class DriverPackagerLite(object):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def CleanupTmpFile(self, root):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.CleanupTmpFile",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def CreateFromManifest(self, manifestPath):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.CreateFromManifest",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def DriverPackagerLite(self):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.DriverPackagerLite",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def GetSquishyOutputFile(self, srcDir):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.GetSquishyOutputFile",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def GetStartLuaFilename(self, filename):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.GetStartLuaFilename",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def Log(self, line):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.Log",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def ParseXml(self, xmlRoot, root, count, errCount):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.ParseXml",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def Squish(self, root):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.Squish",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def __init__(self, args):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.__init__",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def compressDirsLists(self, dirIn, dirsIn, zip):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.compressDirsLists",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def compressFileList(self, dir, root, files, zip):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.compressFileList",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def createC4z(self, c4z, srcDir, dirsList, filesList, encryptIt):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.createC4z",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def createSquishedC4z(self, c4z, dir, squishedFileName, encryptIt):"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#DriverPackagerLite.createSquishedC4z",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def main():"
+      },
+      "id": "symbol:dplite/driverpackagerlite.py#main",
+      "source": "dplite/driverpackagerlite.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "class",
+        "parent": "",
+        "signature": "class LuaFile:"
+      },
+      "id": "symbol:dplite3/createsquishy.py#LuaFile",
+      "source": "dplite3/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "LuaFile",
+        "signature": "def IsAlreadyIncluded(self):"
+      },
+      "id": "symbol:dplite3/createsquishy.py#LuaFile.IsAlreadyIncluded",
+      "source": "dplite3/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "LuaFile",
+        "signature": "def TraverseRequiredFiles(self):"
+      },
+      "id": "symbol:dplite3/createsquishy.py#LuaFile.TraverseRequiredFiles",
+      "source": "dplite3/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "LuaFile",
+        "signature": "def __init__(self, refName, dirRefs, fileRefs, moduleList):"
+      },
+      "id": "symbol:dplite3/createsquishy.py#LuaFile.__init__",
+      "source": "dplite3/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def createsq(inProjFile):"
+      },
+      "id": "symbol:dplite3/createsquishy.py#createsq",
+      "source": "dplite3/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def extractFromProjFile(projFile, dirRefs, fileRefs):"
+      },
+      "id": "symbol:dplite3/createsquishy.py#extractFromProjFile",
+      "source": "dplite3/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def writeSquishyFile(ModList):"
+      },
+      "id": "symbol:dplite3/createsquishy.py#writeSquishyFile",
+      "source": "dplite3/createsquishy.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "class",
+        "parent": "",
+        "signature": "class DriverPackagerLite(object):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def CleanupTmpFile(self, root):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.CleanupTmpFile",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def CreateFromManifest(self, manifestPath):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.CreateFromManifest",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def DriverPackagerLite(self):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.DriverPackagerLite",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def GetSquishyOutputFile(self, srcDir):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.GetSquishyOutputFile",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def GetStartLuaFilename(self, filename):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.GetStartLuaFilename",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def Log(self, line):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.Log",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def ParseXml(self, xmlRoot, root, count, errCount):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.ParseXml",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def Squish(self, root):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.Squish",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def __init__(self, args):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.__init__",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def compressDirsLists(self, dirIn, dirsIn, zip):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.compressDirsLists",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def compressFileList(self, dir, root, files, zip):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.compressFileList",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def createC4z(self, c4z, srcDir, dirsList, filesList, encryptIt):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.createC4z",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "DriverPackagerLite",
+        "signature": "def createSquishedC4z(self, c4z, dir, squishedFileName, encryptIt):"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#DriverPackagerLite.createSquishedC4z",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def main():"
+      },
+      "id": "symbol:dplite3/driverpackagerlite3.py#main",
+      "source": "dplite3/driverpackagerlite3.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def encrypt(filename, outfilename):"
+      },
+      "id": "symbol:dplite3/encrypt_c4z.py#encrypt",
+      "source": "dplite3/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def get_devicedata(filename):"
+      },
+      "id": "symbol:dplite3/encrypt_c4z.py#get_devicedata",
+      "source": "dplite3/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def get_encrypt_filename(filename):"
+      },
+      "id": "symbol:dplite3/encrypt_c4z.py#get_encrypt_filename",
+      "source": "dplite3/encrypt_c4z.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def diff_graphs(old, new):"
+      },
+      "id": "symbol:generator/diagnostics.py#diff_graphs",
+      "source": "generator/diagnostics.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "diff_graphs",
+        "signature": "def triple(e):"
+      },
+      "id": "symbol:generator/diagnostics.py#diff_graphs.triple",
+      "source": "generator/diagnostics.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def gap_category(gap_id):"
+      },
+      "id": "symbol:generator/diagnostics.py#gap_category",
+      "source": "generator/diagnostics.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def render(doc, old=None, label=..., old_label=...):"
+      },
+      "id": "symbol:generator/diagnostics.py#render",
+      "source": "generator/diagnostics.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def summarize_gaps(doc):"
+      },
+      "id": "symbol:generator/diagnostics.py#summarize_gaps",
+      "source": "generator/diagnostics.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "class",
+        "parent": "",
+        "signature": "class Ctx:"
+      },
+      "id": "symbol:generator/extractors.py#Ctx",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "Ctx",
+        "signature": "def __init__(self, nodes, alias, texts, index, basenames):"
+      },
+      "id": "symbol:generator/extractors.py#Ctx.__init__",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "method",
+        "parent": "Ctx",
+        "signature": "def add(self, src, dst, rel, evidence):"
+      },
+      "id": "symbol:generator/extractors.py#Ctx.add",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def dispatch_key(ntype, rel):"
+      },
+      "id": "symbol:generator/extractors.py#dispatch_key",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def enabled_extractors(cfg):"
+      },
+      "id": "symbol:generator/extractors.py#enabled_extractors",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_asset(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_asset",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_doc(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_doc",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_driver_xml(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_driver_xml",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_lua(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_lua",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_manifest(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_manifest",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_page(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_page",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_script_go(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_script_go",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_script_py(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_script_py",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_script_sh(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_script_sh",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def ex_workflow(ctx, nid, rel, text, lines, src_dir):"
+      },
+      "id": "symbol:generator/extractors.py#ex_workflow",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def first_lineno(text, token):"
+      },
+      "id": "symbol:generator/extractors.py#first_lineno",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def is_external(ref):"
+      },
+      "id": "symbol:generator/extractors.py#is_external",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def lang_for(rel):"
+      },
+      "id": "symbol:generator/extractors.py#lang_for",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def lua_index(nodes):"
+      },
+      "id": "symbol:generator/extractors.py#lua_index",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def register(name, fn=None):"
+      },
+      "id": "symbol:generator/extractors.py#register",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "register",
+        "signature": "def wrap(fn):"
+      },
+      "id": "symbol:generator/extractors.py#register.wrap",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def resolve(ref, src_dir, alias):"
+      },
+      "id": "symbol:generator/extractors.py#resolve",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def resolve_lua(mod, src_rel, index, alias):"
+      },
+      "id": "symbol:generator/extractors.py#resolve_lua",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "resolve_lua",
+        "signature": "def score(rel):"
+      },
+      "id": "symbol:generator/extractors.py#resolve_lua.score",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def resolve_py(mod, src_rel, alias):"
+      },
+      "id": "symbol:generator/extractors.py#resolve_py",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def strip_qs(ref):"
+      },
+      "id": "symbol:generator/extractors.py#strip_qs",
+      "source": "generator/extractors.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _cut(text, limit=MAX_SIG):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_cut",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _driver_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_driver_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _enclosing(relpath, outline, line, file_id):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_enclosing",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _entry(name, qualname, kind, parent, signature, line_start, line_end,"
+      },
+      "id": "symbol:generator/graph_symbols.py#_entry",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _fill_ends(entries, n_lines):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_fill_ends",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _find_line(text, token, start=1):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_find_line",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _first_lines(text, tokens):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_first_lines",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _generic_config_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_generic_config_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _is_test_file(relpath):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_is_test_file",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _js_calls_imports(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_js_calls_imports",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _js_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_js_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _json_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_json_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _json_walk(node, path, acc):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_json_walk",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _lua_calls_imports(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_lua_calls_imports",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _lua_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_lua_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _lua_parent(name):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_lua_parent",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _md_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_md_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _mod_to_file(mod):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_mod_to_file",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _php_calls_imports(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_php_calls_imports",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _php_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_php_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _ps1_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_ps1_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _py_calls_imports(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_py_calls_imports",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _py_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_py_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "_py_outline",
+        "signature": "def doc_of(node):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_py_outline.doc_of",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "_py_outline",
+        "signature": "def sig_at(lineno):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_py_outline.sig_at",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "_py_outline",
+        "signature": "def walk(node, qualprefix, classctx):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_py_outline.walk",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _read_file(path):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_read_file",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _scrub_literals(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_scrub_literals",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _selftest():"
+      },
+      "id": "symbol:generator/graph_symbols.py#_selftest",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "_selftest",
+        "signature": "def check(name, cond, detail=...):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_selftest.check",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _sh_calls_imports(text, outline):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_sh_calls_imports",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _sh_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_sh_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _skip_outline(relpath, text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_skip_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _sort_entries(entries):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_sort_entries",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _toml_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_toml_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _try_ts_calls(relpath, text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_try_ts_calls",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "_try_ts_calls",
+        "signature": "def walk(node):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_try_ts_calls.walk",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _unit_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_unit_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _yaml_outline(text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#_yaml_outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def edges(relpath, text, outline, known):"
+      },
+      "id": "symbol:generator/graph_symbols.py#edges",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "edges",
+        "signature": "def resolve(name):"
+      },
+      "id": "symbol:generator/graph_symbols.py#edges.resolve",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def is_secret_token(tok):"
+      },
+      "id": "symbol:generator/graph_symbols.py#is_secret_token",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def main(argv=None):"
+      },
+      "id": "symbol:generator/graph_symbols.py#main",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def outline(relpath, text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#outline",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def purpose(relpath, text):"
+      },
+      "id": "symbol:generator/graph_symbols.py#purpose",
+      "source": "generator/graph_symbols.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def build_manifest(root, project, graph_blob, generated_at,"
+      },
+      "id": "symbol:generator/manifest.py#build_manifest",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def candidate_rels(root):"
+      },
+      "id": "symbol:generator/manifest.py#candidate_rels",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def changed_files(old, root):"
+      },
+      "id": "symbol:generator/manifest.py#changed_files",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def fingerprint(root, rels):"
+      },
+      "id": "symbol:generator/manifest.py#fingerprint",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def git_commit(root):"
+      },
+      "id": "symbol:generator/manifest.py#git_commit",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def load_manifest(path):"
+      },
+      "id": "symbol:generator/manifest.py#load_manifest",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def needs_rebuild(old, root):"
+      },
+      "id": "symbol:generator/manifest.py#needs_rebuild",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def rel_inside(root, path):"
+      },
+      "id": "symbol:generator/manifest.py#rel_inside",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def save_manifest(path, doc):"
+      },
+      "id": "symbol:generator/manifest.py#save_manifest",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def sha256_bytes(blob):"
+      },
+      "id": "symbol:generator/manifest.py#sha256_bytes",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def sha256_file(path):"
+      },
+      "id": "symbol:generator/manifest.py#sha256_file",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def tracked_files(root):"
+      },
+      "id": "symbol:generator/manifest.py#tracked_files",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def walk_files(root):"
+      },
+      "id": "symbol:generator/manifest.py#walk_files",
+      "source": "generator/manifest.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _basenames(alias):"
+      },
+      "id": "symbol:generator/project_graph.py#_basenames",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _graph_blob(doc):"
+      },
+      "id": "symbol:generator/project_graph.py#_graph_blob",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def _output_rels(root, paths):"
+      },
+      "id": "symbol:generator/project_graph.py#_output_rels",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def build_graph(root, project, fixed_time=None, cfg=None):"
+      },
+      "id": "symbol:generator/project_graph.py#build_graph",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def cfg_secret_globs(cfg):"
+      },
+      "id": "symbol:generator/project_graph.py#cfg_secret_globs",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def cfg_skip_dirs(cfg):"
+      },
+      "id": "symbol:generator/project_graph.py#cfg_skip_dirs",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def cfg_skip_suffixes(cfg):"
+      },
+      "id": "symbol:generator/project_graph.py#cfg_skip_suffixes",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def check(name, cond, failures):"
+      },
+      "id": "symbol:generator/project_graph.py#check",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def classify(rel, cfg=None):"
+      },
+      "id": "symbol:generator/project_graph.py#classify",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def cmd_build(root, project, out, fixed_time, cfg=None,"
+      },
+      "id": "symbol:generator/project_graph.py#cmd_build",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def cmd_diagnostics(graph_path, old_path):"
+      },
+      "id": "symbol:generator/project_graph.py#cmd_diagnostics",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def cmd_manifest(root, project, graph_path, out, fixed_time, version):"
+      },
+      "id": "symbol:generator/project_graph.py#cmd_manifest",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def cmd_selftest():"
+      },
+      "id": "symbol:generator/project_graph.py#cmd_selftest",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def collect(root, cfg=None):"
+      },
+      "id": "symbol:generator/project_graph.py#collect",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def default_config():"
+      },
+      "id": "symbol:generator/project_graph.py#default_config",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def extract_edges(nodes, alias, texts, cfg=None):"
+      },
+      "id": "symbol:generator/project_graph.py#extract_edges",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def is_binary(path):"
+      },
+      "id": "symbol:generator/project_graph.py#is_binary",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def is_secret_token(tok):"
+      },
+      "id": "symbol:generator/project_graph.py#is_secret_token",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def load_config(path):"
+      },
+      "id": "symbol:generator/project_graph.py#load_config",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def main(argv):"
+      },
+      "id": "symbol:generator/project_graph.py#main",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def nowstamp(fixed):"
+      },
+      "id": "symbol:generator/project_graph.py#nowstamp",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def read_text(path):"
+      },
+      "id": "symbol:generator/project_graph.py#read_text",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def secret_names_in(text):"
+      },
+      "id": "symbol:generator/project_graph.py#secret_names_in",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "function",
+        "parent": "",
+        "signature": "def write_fixture(root):"
+      },
+      "id": "symbol:generator/project_graph.py#write_fixture",
+      "source": "generator/project_graph.py",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "deterministic = ..."
+      },
+      "id": "symbol:graph.config.json#deterministic",
+      "source": "graph.config.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "excludes = ..."
+      },
+      "id": "symbol:graph.config.json#excludes",
+      "source": "graph.config.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "output = ..."
+      },
+      "id": "symbol:graph.config.json#output",
+      "source": "graph.config.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "project = ..."
+      },
+      "id": "symbol:graph.config.json#project",
+      "source": "graph.config.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "secrets_policy = ..."
+      },
+      "id": "symbol:graph.config.json#secrets_policy",
+      "source": "graph.config.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "sources = ..."
+      },
+      "id": "symbol:graph.config.json#sources",
+      "source": "graph.config.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "version = ..."
+      },
+      "id": "symbol:graph.config.json#version",
+      "source": "graph.config.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "$schema = ..."
+      },
+      "id": "symbol:manifest.schema.json#$schema",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "additionalProperties = ..."
+      },
+      "id": "symbol:manifest.schema.json#additionalProperties",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "description = ..."
+      },
+      "id": "symbol:manifest.schema.json#description",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "properties = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties",
+        "signature": "properties.drift = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.drift",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.drift",
+        "signature": "properties.drift.type = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.drift.type",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties",
+        "signature": "properties.edges = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.edges",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.edges",
+        "signature": "properties.edges.items = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.edges.items",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.edges",
+        "signature": "properties.edges.type = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.edges.type",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties",
+        "signature": "properties.gaps = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.gaps",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.gaps",
+        "signature": "properties.gaps.type = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.gaps.type",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties",
+        "signature": "properties.generated_at = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.generated_at",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.generated_at",
+        "signature": "properties.generated_at.type = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.generated_at.type",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties",
+        "signature": "properties.nodes = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.nodes",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.nodes",
+        "signature": "properties.nodes.items = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.nodes.items",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.nodes",
+        "signature": "properties.nodes.type = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.nodes.type",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties",
+        "signature": "properties.source_commit = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.source_commit",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.source_commit",
+        "signature": "properties.source_commit.type = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.source_commit.type",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties",
+        "signature": "properties.sources = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.sources",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.sources",
+        "signature": "properties.sources.items = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.sources.items",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "properties.sources",
+        "signature": "properties.sources.type = ..."
+      },
+      "id": "symbol:manifest.schema.json#properties.sources.type",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "required = ..."
+      },
+      "id": "symbol:manifest.schema.json#required",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "title = ..."
+      },
+      "id": "symbol:manifest.schema.json#title",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "config-key",
+        "parent": "",
+        "signature": "type = ..."
+      },
+      "id": "symbol:manifest.schema.json#type",
+      "source": "manifest.schema.json",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
+        "kind": "section",
+        "parent": "",
+        "signature": "# Next Generation of Driver Packager"
+      },
+      "id": "symbol:nextGen.md#Next Generation of Driver Packager",
+      "source": "nextGen.md",
+      "type": "symbol"
+    },
+    {
+      "attrs": {
         "bytes": 121342,
-        "path": "dp/squish"
+        "lang": "text",
+        "path": "dp/squish",
+        "purpose": ""
       },
       "id": "vendor:dp/squish",
       "source": "dp/squish",
@@ -621,15 +5722,17 @@
     },
     {
       "attrs": {
+        "lang": "yaml",
         "lines": 148,
-        "path": ".github/workflows/graph-freshness.yml"
+        "path": ".github/workflows/graph-freshness.yml",
+        "purpose": "Graph-freshness gate: FAILS red on stale, PASSES green on fresh."
       },
       "id": "workflow:.github/workflows/graph-freshness.yml",
       "source": ".github/workflows/graph-freshness.yml",
       "type": "workflow"
     }
   ],
-  "source_commit": "df3b98ecbead86e5bea5199c23dc7eb252fa3407",
+  "source_commit": "573f1edb12e0554d249ebfdf94e9ca6422017a3e",
   "sources": [
     {
       "path": ".dockerignore",
@@ -637,7 +5740,7 @@
     },
     {
       "path": ".githooks/pre-push",
-      "sha256": "ed37d80a903d049b088b17b313753b34007721041601c87dc3880af1485dbfd9"
+      "sha256": "a3763c70b67cebb7e078b8bff65ab6958f7f19b90ccb8639c866606fb9e26ba4"
     },
     {
       "path": ".github/tests/test-graph-freshness.sh",
@@ -661,7 +5764,7 @@
     },
     {
       "path": "Documentation/architecture/codebase-graph.json",
-      "sha256": "efe116d8c91aa5f3ab7d1eaa49310167fbe1e43472da7569e066c49300267396"
+      "sha256": "30711dec7142ce32e04d94105cb6e25c7a80c43445b3a8626d5dcb09680caf65"
     },
     {
       "path": "LICENSE.md",
@@ -757,7 +5860,11 @@
     },
     {
       "path": "generator/extractors.py",
-      "sha256": "8e214e66aa23c043994b394f700d138502d6038bd2d6ff9a2e79b446e118b3fa"
+      "sha256": "dda3496c39625d5110557af5fdd4cf2a7baa32cbc975f03e8f33a7b43facd3df"
+    },
+    {
+      "path": "generator/graph_symbols.py",
+      "sha256": "0dcd0ef3eee685b5d183554b64efae8a90d6b6db73ec194fbdc1156e05581607"
     },
     {
       "path": "generator/manifest.py",
@@ -765,7 +5872,7 @@
     },
     {
       "path": "generator/project_graph.py",
-      "sha256": "9ed2745480bf96220bddbe4fe96e31897bf15d8aef6d25ef663202ab990eeac4"
+      "sha256": "847d0525d50a9a19ab45ef056b0b324ef6cee3a91660714e1953588cc688ca3a"
     },
     {
       "path": "gosquish/squishLua.go",
